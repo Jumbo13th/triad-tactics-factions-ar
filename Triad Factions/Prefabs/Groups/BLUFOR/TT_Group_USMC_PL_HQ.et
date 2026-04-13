@@ -1,0 +1,13 @@
+SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_US_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Groups_Platoon_HQ"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{6F1F8B79D3E074FF}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_PL.et" "{98110BD561701EEA}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_DPL.et" "{8B8CDF09ECE1EF1D}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_RTO.et" "{E5E7240AD8C4DC80}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Corpsman.et"
+ }
+}

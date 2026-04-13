@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{2D8CCDBDAF9CA5CE}Prefabs/Characters/Factions/OPFOR/USSR
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#TTF-Characters_SF_DPL"
+    Name "#TTF-Characters_DPL"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

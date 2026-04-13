@@ -12,7 +12,7 @@ SCR_ChimeraCharacter : "{5811F02495F6810E}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+     Prefab "{FB5C54989C7AD8B8}Prefabs/Items/Equipment/Radios/TT_Radio_R107M.et"
     }
    }
   }

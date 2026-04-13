@@ -1,0 +1,19 @@
+SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Groups_RifleSquad_V1"
+    m_aAuthoredLabels + {
+     CONTENT_MODDED
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{F60132E0CE07456F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_SL.et" "{F1C6C8B1A881FFAC}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_TL.et" "{9B89C3FFFC83E77C}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AR.et" "{8FBF38978E851F78}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AAR.et" "{3DCAF44F7FDD8400}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Rifleman.et" "{F1C6C8B1A881FFAC}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_TL.et" "{9B89C3FFFC83E77C}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AR.et" "{8FBF38978E851F78}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AAR.et" "{3DCAF44F7FDD8400}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Rifleman.et" "{F1C6C8B1A881FFAC}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_TL.et" "{9B89C3FFFC83E77C}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AR.et" "{8FBF38978E851F78}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AAR.et" "{3DCAF44F7FDD8400}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Rifleman.et"
+ }
+}

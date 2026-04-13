@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{3DCAF44F7FDD8400}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Rifleman.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{E4E4CA52CCB2D22C}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22_base.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_AAR"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{691ADB89E0F93D98}" {
+     PrefabsToSpawn + {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

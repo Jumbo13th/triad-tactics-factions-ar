@@ -1,0 +1,13 @@
+SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_US_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Groups_MG_Squad"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{F60132E0CE07456F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_SL.et" "{C99E1DE592CCF39F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_MG.et" "{DDA8E68DE0CA0B9B}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AMG.et" "{C99E1DE592CCF39F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_MG.et" "{DDA8E68DE0CA0B9B}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_AMG.et"
+ }
+}

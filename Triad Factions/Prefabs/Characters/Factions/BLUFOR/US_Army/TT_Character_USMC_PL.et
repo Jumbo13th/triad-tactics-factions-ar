@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{F60132E0CE07456F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_SL.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_PL"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F545C1BE7C99954A}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CCA7A9BB4FD3197}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup.et"
+    }
+   }
+  }
+ }
+}

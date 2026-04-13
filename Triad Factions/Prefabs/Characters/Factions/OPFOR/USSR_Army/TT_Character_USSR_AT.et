@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{262568497940DB3D}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Rifleman.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_AT"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{22963D69CA50EB9E}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_net.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D262D2102B9931C6}Prefabs/Characters/Uniforms/Jacket_M88_rolledup.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0D39750E5695B9D8}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{691ADB9E6EB582B0}" {
+     TargetStorage "Back/Backpack_RPG_Gunner.et"
+     PrefabsToSpawn {
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+    }
+   }
+  }
+ }
+}

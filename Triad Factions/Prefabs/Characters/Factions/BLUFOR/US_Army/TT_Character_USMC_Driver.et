@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{3DCAF44F7FDD8400}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Rifleman.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{E4E4CA52CCB2D22C}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22_base.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_Crew"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F97A4AC994231900}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C8EAB0985B66824A}Prefabs/Characters/HeadGear/Helmet_DH132_01/Helmet_DH132A_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{F9ACDDE62D906D61}Prefabs/Characters/Vests/Vest_M69/Vest_M69_olive.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{691ADB89E0F93D98}" {
+     PrefabsToSpawn + {
+      "{F516AD5284661632}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01_base.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Groups_Platoon_HQ"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{44F8097F44C7BC02}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_PL.et" "{E69E120B81C06A3F}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_DPL.et" "{2B98B7AA1E490BA0}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_Sniper.et"
+ }
+}

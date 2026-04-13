@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{5811F02495F6810E}Prefabs/Characters/Factions/OPFOR/USSR
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#TTF-Characters_SF_PL"
+    Name "#TTF-Characters_PL"
     m_aAuthoredLabels + {
      CONTENT_MODDED
     }
@@ -18,7 +18,7 @@ SCR_ChimeraCharacter : "{5811F02495F6810E}Prefabs/Characters/Factions/OPFOR/USSR
      Prefab "{BE19A15F1073E7BD}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_black.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+     Prefab "{FB5C54989C7AD8B8}Prefabs/Items/Equipment/Radios/TT_Radio_R107M.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"

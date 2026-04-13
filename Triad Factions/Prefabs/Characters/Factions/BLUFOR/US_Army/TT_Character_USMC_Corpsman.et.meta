@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E5E7240AD8C4DC80}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Corpsman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

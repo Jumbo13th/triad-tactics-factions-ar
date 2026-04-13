@@ -1,0 +1,49 @@
+Vehicle : "{33AB44A084BAA0CD}Prefabs/Vehicles/Wheeled/M998/M1025_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Vehicles_M1025_Landmines"
+    m_aAuthoredLabels + {
+     CONTENT_MODDED
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{691B1391A109BF68}" {
+     SlotTemplate InventoryStorageSlot Landmines {
+      Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{691B1391961E3407}" {
+     SlotTemplate InventoryStorageSlot Launchers {
+      Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Enabled 1
+    }
+    EntitySlotInfo SupplyStorage_04 {
+     Enabled 1
+    }
+    EntitySlotInfo SupplyStorage_06 {
+     Enabled 1
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}
