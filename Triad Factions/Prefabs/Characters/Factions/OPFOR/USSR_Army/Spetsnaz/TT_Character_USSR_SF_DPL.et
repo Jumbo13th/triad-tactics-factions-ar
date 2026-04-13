@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{2D8CCDBDAF9CA5CE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/TT_Character_USSR_SF_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_SF_DPL"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{9F546CCA2582D16F}Prefabs/Characters/Uniforms/Jacket_M88.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60E6A9E7DEF195CA}" {
+    }
+   }
+  }
+ }
+}

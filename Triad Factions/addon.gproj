@@ -1,0 +1,83 @@
+GameProject {
+ ID "TriadFactions"
+ GUID "691A7CDFD9F82352"
+ TITLE "Triad Factions"
+ Dependencies {
+  "58D0FB3206B6F859" "5D550926D43F1409"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{691A88093735B7F8}" {
+      StringTableSource "{408BCD5988D18F6A}Language/tt_factions_localization.st"
+      Languages {
+       LanguageDefinition "{691A880935BB5021}" {
+        Code "cs_cz"
+        StringTableRuntime "{A49D88BD490CBECA}Language/tt_factions_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{691A880935BB5042}" {
+        Code "de_de"
+        StringTableRuntime "{71E3928E5AAFAFEA}Language/tt_factions_localization.de_de.conf"
+       }
+       LanguageDefinition "{691A880935BB5070}" {
+        Code "en_us"
+        StringTableRuntime "{2F1318C5305CAAEB}Language/tt_factions_localization.en_us.conf"
+       }
+       LanguageDefinition "{691A880935BB507D}" {
+        Code "es_es"
+        StringTableRuntime "{EA5F554CDE5EC1F4}Language/tt_factions_localization.es_es.conf"
+       }
+       LanguageDefinition "{691A880935BB5068}" {
+        Code "fr_fr"
+        StringTableRuntime "{51F7A07B38DD22F6}Language/tt_factions_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{691A880935BB5199}" {
+        Code "it_it"
+        StringTableRuntime "{D1EB2F4F95FFA10F}Language/tt_factions_localization.it_it.conf"
+       }
+       LanguageDefinition "{691A880935BB5183}" {
+        Code "ja_jp"
+        StringTableRuntime "{C1F092DDAB8E91A4}Language/tt_factions_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{691A880935BB51B1}" {
+        Code "ko_kr"
+        StringTableRuntime "{614EBA7138A3929B}Language/tt_factions_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{691A880935BB51BD}" {
+        Code "pl_pl"
+        StringTableRuntime "{3D3F1C8B864C0EE7}Language/tt_factions_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{691A880935BB51A6}" {
+        Code "pt_br"
+        StringTableRuntime "{E8488647BDB2C45D}Language/tt_factions_localization.pt_br.conf"
+       }
+       LanguageDefinition "{691A880935BB51D4}" {
+        Code "ru_ru"
+        StringTableRuntime "{BD0992EF20CBA12B}Language/tt_factions_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{691A880935BB512E}" {
+        Code "uk_ua"
+        StringTableRuntime "{3751C7194CE51F7E}Language/tt_factions_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{691A880935BB515B}" {
+        Code "zh_cn"
+        StringTableRuntime "{EDE1A9247545CF63}Language/tt_factions_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
