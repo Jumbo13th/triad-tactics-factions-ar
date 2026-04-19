@@ -1,0 +1,13 @@
+SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Groups_RifleSquad_Naval"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{EB476CF0773C1787}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SL_Naval.et" "{E8C7E441F8356C17}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_SR_Naval.et" "{07CEE97DD0C93F1E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AR_Naval.et" "{862EAB36BCF03B90}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AT_Naval.et" "{C04173C26D3786CB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_AAT_Naval.et" "{EDABFB2F99D9DDE2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_Rifleman_Naval.et" "{04A770DC3EF6F3BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_Driver_Naval.et" "{04A770DC3EF6F3BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_Driver_Naval.et"
+ }
+}

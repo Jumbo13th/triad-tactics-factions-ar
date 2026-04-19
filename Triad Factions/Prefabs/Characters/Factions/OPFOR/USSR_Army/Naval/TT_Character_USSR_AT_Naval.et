@@ -1,0 +1,33 @@
+SCR_ChimeraCharacter : "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AT.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_AT_Naval"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{F6C7806DBBF26C50}Prefabs/Characters/Uniforms/Jacket_M88_rolledup_TTsKO.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7E45E8E203507300}Prefabs/Characters/Uniforms/Pants_M88_TTsKO.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{26223738A07F8202}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_M88_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{691ADB9E6EB582B0}" {
+     TargetStorage "Back/Backpack_RPG_Assistant_Black.et"
+    }
+   }
+  }
+ }
+}

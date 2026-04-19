@@ -11,7 +11,21 @@ StringTable {
   CustomStringTableItem "{691ADB92B56A65FF}" {
    Id "TTF-Characters_AAT"
    Target_en_us "Assistant Anti-Tank"
-   Modified 1763373092
+   Modified 1764052550
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254AB2EECDEF9C}" {
+   Id "TTF-Characters_AAT_Naval"
+   Target_en_us "Assistant Anti-Tank (Naval)"
+   Modified 1764053737
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254ABA0758700F}" {
+   Id "TTF-Characters_AMG_Naval"
+   Target_en_us "Assistant Machine Gunner (Naval)"
+   Modified 1764057157
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -22,10 +36,24 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69254AB3CB803AAE}" {
+   Id "TTF-Characters_AR_Naval"
+   Target_en_us "Automatic Rifleman (Naval)"
+   Modified 1764053337
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691ADB9145E1734A}" {
    Id "TTF-Characters_AT"
    Target_en_us "Rifleman Anti-Tank"
    Modified 1763372521
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254AB3AD446E9C}" {
+   Id "TTF-Characters_AT_Naval"
+   Target_en_us "Rifleman Anti-Tank (Naval)"
+   Modified 1764053412
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -43,10 +71,24 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69254AB309820795}" {
+   Id "TTF-Characters_Crew_Naval"
+   Target_en_us "Crew (Naval)"
+   Modified 1764053683
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691A880996DAE0BA}" {
    Id "TTF-Characters_DPL"
    Target_en_us "Deputy Platoon Leader"
    Modified 1763373983
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254AB365E71A9E}" {
+   Id "TTF-Characters_DPL_Naval"
+   Target_en_us "Deputy Platoon Leader (Naval)"
+   Modified 1764053518
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -57,10 +99,38 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69254ABAD6EC5C5A}" {
+   Id "TTF-Characters_MG_Naval"
+   Target_en_us "Machine Gunner (Naval)"
+   Modified 1764056583
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6926A95E5F89E287}" {
+   Id "TTF-Characters_Pilot"
+   Target_en_us "Pilot"
+   Modified 1764141724
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691A880BC63AF9F4}" {
    Id "TTF-Characters_PL"
    Target_en_us "Platoon Leader"
    Modified 1763373980
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254AB4DA8CC30B}" {
+   Id "TTF-Characters_PL_Naval"
+   Target_en_us "Platoon Leader (Naval)"
+   Modified 1764053830
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254AB48021823A}" {
+   Id "TTF-Characters_R_Naval"
+   Target_en_us "Rifleman (Naval)"
+   Modified 1764053929
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -106,6 +176,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69254AB4747708EA}" {
+   Id "TTF-Characters_SL_Naval"
+   Target_en_us "Squad Leader (Naval)"
+   Modified 1764054018
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691ADB93E2A569A0}" {
    Id "TTF-Characters_Sniper"
    Target_en_us "Sniper"
@@ -113,10 +190,24 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69254AB43BE2CE3E}" {
+   Id "TTF-Characters_Sniper_Naval"
+   Target_en_us "Sniper (Naval)"
+   Modified 1764054111
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691ADB909059B7E4}" {
    Id "TTF-Characters_SR"
    Target_en_us "Senior Rifleman"
    Modified 1763371987
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254AB4121D3AD9}" {
+   Id "TTF-Characters_SR_Naval"
+   Target_en_us "Senior Rifleman (Naval)"
+   Modified 1764054183
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -141,6 +232,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69254ABB7E41D063}" {
+   Id "TTF-Groups_MG_Naval"
+   Target_en_us "Machine Gun Squad (Naval)"
+   Modified 1764057458
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691B139576E92815}" {
    Id "TTF-Groups_MG_Squad"
    Target_en_us "Machine Gun Squad"
@@ -148,10 +246,24 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6926A95FB950D31B}" {
+   Id "TTF-Groups_Pilots"
+   Target_en_us "Pilots"
+   Modified 1764142023
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691ADB95ECA803BC}" {
    Id "TTF-Groups_Platoon_HQ"
    Target_en_us "Platoon HQ"
    Modified 1763374308
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254AB8028187E9}" {
+   Id "TTF-Groups_Platoon_HQ_Naval"
+   Target_en_us "Platoon HQ (Naval)"
+   Modified 1764055990
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -166,6 +278,13 @@ StringTable {
    Id "TTF-Groups_Recon_PL_BRDM"
    Target_en_us "Recon Platoon HQ (BRDM-2)"
    Modified 1763353880
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254AB54B965F07}" {
+   Id "TTF-Groups_RifleSquad_Naval"
+   Target_en_us "Rifle Squad (Naval)"
+   Modified 1764054483
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -187,6 +306,13 @@ StringTable {
    Id "TTF-Vehicles_BRMD2_Expl"
    Target_en_us "BRDM-2 (Explosives)"
    Modified 1763353462
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69254ABC73E75491}" {
+   Id "TTF-Vehicles_BTR70"
+   Target_en_us "BTR-70"
+   Modified 1764057932
    Author "siwi1"
    LastChanged "siwi1"
   }

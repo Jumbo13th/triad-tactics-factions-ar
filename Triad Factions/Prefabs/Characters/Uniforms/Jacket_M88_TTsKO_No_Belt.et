@@ -1,0 +1,27 @@
+GameEntity : "{9F546CCA2582D16F}Prefabs/Characters/Uniforms/Jacket_M88.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#AR-Uniform_M88_Jacket_TTsKO_Name"
+     Description "#AR-Uniform_M88_Jacket_TTsKO_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Enabled 0
+     Prefab "{FCF7AA10222C6F49}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_belt_dummy_Black.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{A33E99E092026F73}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_TTsKO.emat"
+   }
+   ItemMaterialsOverride {
+    "{7FFA449354C4E690}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_TTsKO_item.emat"
+   }
+  }
+ }
+}

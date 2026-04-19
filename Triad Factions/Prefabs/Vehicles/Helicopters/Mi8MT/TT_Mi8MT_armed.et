@@ -1,0 +1,93 @@
+Vehicle : "{20C37D5090E4E0E6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_HelicopterSoundComponent "{5A7CE769E7A9C43E}" {
+   Filenames + {
+    "{24D5125631248E12}Sounds/Vehicles/Helicopters/Mi-8MT/Vehicles_Mi-8MT_Wind.acp"
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{64F48B50845FA4E0}" {
+     SourceMaterial "m_PRT_Windows_opened_FCD51D86A834D109"
+     AssignedMaterial "{FCD51D86A834D109}Assets/_SharedMaterials/VehicleParts/m_PRT_Windows_opened.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot Passenger_m01Cargo {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56667885A8DC}" {
+     }
+     AdditionalActions {
+      SCR_SwitchSeatAction "{60A887FB1D803956}" {
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_Mi8MT_Armed_Name"
+    m_Image "{54B49E55E62EC396}UI/Textures/EditorPreviews/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.edds"
+    m_aAuthoredLabels + {
+     TRAIT_ARMED
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1625
+     }
+     SCR_EntityBudgetValue "{611E87CA7FF4ED82}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5C7AF24EB7F8DD21}" {
+      m_Value 4
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6926A95FC5CBF853}" {
+     SlotTemplate InventoryStorageSlot PKM_mags {
+      Prefab "{FB5C54989C7AD8B8}Prefabs/Items/Equipment/Radios/TT_Radio_R107M.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo door_rear {
+     PivotID "slot_gunner_rear"
+     MergePhysics 0
+     Prefab "{F75F5379C0F568C4}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/WeapSystems/Mi8MT_PKMT_mount_rear.et"
+     InheritParentSkeleton 0
+     RegisterActions 1
+     RegisterControllers 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo SeatsRear {
+     MergePhysics 0
+    }
+    RegisteringComponentSlotInfo Window_Glass_Cockpit_09 {
+     PivotID "slot_gunner_front"
+     Prefab "{0147F3C32DF990FF}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/WeapSystems/Mi8MT_PKMT_mount_front.et"
+     RegisterActions 1
+     RegisterControllers 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo GunnerSeat {
+     PivotID "slot_gunner_front"
+     Prefab "{60286D87CC2ED275}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Seats/Mi8MT_seat_gunner.et"
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B80BCCBF0B33C8}" {
+   AlwaysActive 1
+  }
+ }
+}

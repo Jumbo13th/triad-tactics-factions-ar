@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C04173C26D3786CB}Prefabs/Characters/Factions/OPFOR/USSR_Army/TT_Character_USSR_AAT_Naval.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
