@@ -1,0 +1,101 @@
+SCR_ChimeraCharacter : "{4A29AE1848437792}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_Rifleman_Marines"
+    m_Image "{EF5DC836FB10FA6A}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1989_Regulars_Rifleman.edds"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_BRITISH CONTENT_MODDED ERA_BRITISHFORCES_1989 TRAIT_OPTICS BRANCH_BRITISHFORCES_REGULARS
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{61974744DE1BF87C}" {
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{77A96CF0A56DD594}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_Attachments_SUSAT.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FC513D8A3D4F641B}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Cover_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C0FF8A6F0EE9ECB0}Prefabs/Characters/Uniforms/Smock_Combat_84Pat_DPM_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{F342102250ED03CC}Prefabs/Characters/Vests/Vest_CBA/Vest_CBA.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{20D80A4DAA97F6CF}Prefabs/Characters/Uniforms/Trousers_Combat_84Pat_DPM_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9AB0215B78B3F7CA}Prefabs/Characters/Vests/Vest_58Pattern/Variants/Vest_P58_rifleman_L85.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Pants/Trousers_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{0B5F48BEB4CFF58B}Prefabs/Items/Equipment/Compass/Compass_Prismatic_M73.et" "{379F10C00559D45F}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_UK.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{6FF55651CC92F59D}Prefabs/Items/Equipment/Radios/TT_Radio_PRC349_Single.et" "{348AFA29B6D6BE0A}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget_UK_OD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     TargetStorage "Vest/Vest_P58_rifleman_L85.et/MagPouch/Pouch_P58_20rnd_L1A1_Left_L3A1.et"
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et" "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     TargetStorage "Vest/Vest_P58_rifleman_L85.et/Buttpack/Vest_P58_kidney_left.et"
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{5DB8DBAB68E56D6A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_4B1T.et" "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     TargetStorage "Vest/Vest_P58_rifleman_L85.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{77A25EFFE26D8A7E}Prefabs/Weapons/Grenades/Smoke_No83_Green.et" "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     TargetStorage "Vest/Vest_P58_rifleman_L85.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
+    }
+    ItemsInitConfigurationItem "{65D51D8B91CE547A}" {
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{7CA4B6E76443A62E}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Marine.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6928F9FD8E069F97}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{5DB8DBAB68E56D6A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_4B1T.et" "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0.451 0 -6.484
+}

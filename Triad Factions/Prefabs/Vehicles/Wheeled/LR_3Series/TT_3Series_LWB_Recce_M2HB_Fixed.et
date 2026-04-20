@@ -1,0 +1,113 @@
+Vehicle : "{53982BB1E5E3BE60}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Vehicles_LandRover_Recce_M2"
+    m_Image "{653CBB153CBD7EF0}UI/PreviewImages/Vehicles/3Series_LWB_Recce_M2.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE TRAIT_PASSENGERS_SMALL CONTENT_MODDED TRAIT_ARMED
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 550
+     }
+     SCR_EntityBudgetValue "{659936C37E1C9D8D}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 3
+     }
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{65949D89EAA4FFD2}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{65949D89E563927E}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{65949D89E5983036}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5EB0D397D958C6E8}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{6591064157247661}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{69292E001C6911BE}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+     }
+     NumSlots 5
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo RearCargo {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo GunnerFrontRight {
+     Prefab ""
+    }
+    RegisteringComponentSlotInfo CamoNet_Front {
+     Prefab "{68F41E884C932476}Prefabs/Vehicles/Wheeled/LR_3Series/VehParts/Misc/CamoNet/3Series_CamoNet_Front.et"
+    }
+    RegisteringComponentSlotInfo CamoNet_Door_L {
+    }
+    RegisteringComponentSlotInfo GunnerRear {
+     Offset 0 -0.0475 -0.2628
+     Angles 0 0 0
+     Enabled 1
+     Prefab "{9E5D6537C4407B82}Prefabs/Vehicles/Wheeled/M151A2/LR3Series_gun_mount_M2HB.et"
+    }
+    RegisteringComponentSlotInfo Ammo_01 {
+     Offset -0.2299 0.8148 -2.0516
+     Angles -0.4688 -85.3714 -1.0705
+     Prefab "{AA7A7B9E3AC7FF6E}Prefabs/Vehicles/Generic/VehParts/Vehicle Magazines/M2_Vehicle_01.et"
+    }
+    RegisteringComponentSlotInfo Ammo_02 {
+     Offset -0.4015 0.8044 -2.0404
+     Angles 0 88.1121 0
+     Prefab "{AA7A7B9E3AC7FF6E}Prefabs/Vehicles/Generic/VehParts/Vehicle Magazines/M2_Vehicle_01.et"
+    }
+    RegisteringComponentSlotInfo Ammo_04 {
+     Offset 0.1556 1.1167 0.3171
+     Angles 1.278 -80.5543 -7.6361
+    }
+    RegisteringComponentSlotInfo Ammo_05 {
+     Offset -0.0534 0.8122 -2.0347
+     Angles -3.5362 -90 0
+     Prefab "{AA7A7B9E3AC7FF6E}Prefabs/Vehicles/Generic/VehParts/Vehicle Magazines/M2_Vehicle_01.et"
+    }
+    RegisteringComponentSlotInfo Ammo_06 {
+     Offset 0.1029 0.8047 -2.0442
+     Angles 0 -93.9468 0
+     Prefab "{AA7A7B9E3AC7FF6E}Prefabs/Vehicles/Generic/VehParts/Vehicle Magazines/M2_Vehicle_01.et"
+    }
+    RegisteringComponentSlotInfo Ammo_07 {
+     Offset 0.3259 0.8114 -2.0286
+     Angles 0 -2.8635 1.7715
+     Prefab "{AA7A7B9E3AC7FF6E}Prefabs/Vehicles/Generic/VehParts/Vehicle Magazines/M2_Vehicle_01.et"
+    }
+    RegisteringComponentSlotInfo Ammo_08 {
+     Offset -0.009 1.1165 0.316
+     Angles -0.1735 -91.27626 -7.7398
+    }
+    RegisteringComponentSlotInfo Cargo_01_1 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo_02_1 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo_02_2 {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

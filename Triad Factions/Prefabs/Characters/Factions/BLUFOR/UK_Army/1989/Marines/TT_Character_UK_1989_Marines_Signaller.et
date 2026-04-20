@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{91D2677D8571151D}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_TroopSignaller"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{88B260AB8E82A6DB}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Cover_NoStrap_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B2EF9BF250A09EB8}Prefabs/Items/Equipment/Radios/TT_Radio_PRC351.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6928F9FD8E069F97}" {
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

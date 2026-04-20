@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{91D2677D8571151D}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_Grenadier_Marines"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{D63BB8EFDBE2F147}Prefabs/Weapons/Launchers/M79/Launcher_M79_base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7EC7455E0E21D082}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Scrim_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{29FE6813D23713EA}Prefabs/Characters/Uniforms/Smock_Combat_Rolled_68Pat_DPM_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D51D8B91CE547A}" {
+     TargetStorage "Jacket/Smock_Combat_Rolled_68Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{6928F9FD8E069F97}" {
+     PrefabsToSpawn + {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+   }
+  }
+ }
+}

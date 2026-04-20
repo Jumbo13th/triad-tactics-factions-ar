@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{25D089D04E3B8DCC}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Signaller.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{91D2677D8571151D}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_Gunner"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9C4986620BBCA867}Prefabs/Weapons/Rifles/L85/LSW_A1/Rifle_L85_LSW_A1_Attachments_SUSAT.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{704A54A7B4225AC7}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Cover_BrownStrap_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5167171CEE14E291}Prefabs/Characters/Uniforms/Smock_Combat_Rolled_84Pat_DPM_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D51D8B91CE547A}" {
+     TargetStorage "Jacket/Smock_Combat_Rolled_84Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{6928F9FD8E069F97}" {
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{5DB8DBAB68E56D6A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_4B1T.et" "{5DB8DBAB68E56D6A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_4B1T.et" "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et" "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

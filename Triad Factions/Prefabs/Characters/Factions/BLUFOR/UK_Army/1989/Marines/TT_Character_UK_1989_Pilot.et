@@ -1,0 +1,70 @@
+SCR_ChimeraCharacter : "{91D2677D8571151D}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Marines/TT_Character_UK_1989_Marines_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_Pilot"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{67812A5D844880A5}Prefabs/Weapons/Rifles/MP5/Rifle_MP5.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7DCE2BA9C0621155}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01_UK.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0EE94404A7B2657F}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_UK_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B2EF9BF250A09EB8}Prefabs/Items/Equipment/Radios/TT_Radio_PRC351.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{341D83C95C8E6F46}Prefabs/Characters/Vests/Vest_SRU21P/Vest_SRU21P_UK.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     TargetStorage "Vest/Vest_SRU21P_UK.et"
+     PrefabsToSpawn {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     TargetStorage "Vest/Vest_SRU21P_UK.et"
+     PrefabsToSpawn {
+      "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+     PrefabsToSpawn {
+      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{77A25EFFE26D8A7E}Prefabs/Weapons/Grenades/Smoke_No83_Green.et" "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D51D8B91CE547A}" {
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+     PrefabsToSpawn {
+      "{D3DE3810F3E35336}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_gs_blue.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6928F9FD8E069F97}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

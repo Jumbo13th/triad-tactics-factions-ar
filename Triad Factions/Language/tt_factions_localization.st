@@ -29,6 +29,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69292E07AE332698}" {
+   Id "TTF-Characters_AmmoBearer_Marines"
+   Target_en_us "Ammo Bearer (Marine)"
+   Modified 1764307748
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691ADB91BEE999CD}" {
    Id "TTF-Characters_AR"
    Target_en_us "Automatic Rifleman"
@@ -89,6 +96,20 @@ StringTable {
    Id "TTF-Characters_DPL_Naval"
    Target_en_us "Deputy Platoon Leader (Naval)"
    Modified 1764053518
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6928F9EDA6A549F3}" {
+   Id "TTF-Characters_Grenadier_Marines"
+   Target_en_us "Grenadier (Marine)"
+   Modified 1764307678
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6928F9EC50E6AB34}" {
+   Id "TTF-Characters_Gunner"
+   Target_en_us "Gunner"
+   Modified 1764305221
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -162,10 +183,38 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6928F9F33262C704}" {
+   Id "TTF-Characters_Rifleman_Marines"
+   Target_en_us "Rifleman (Marine)"
+   Modified 1764307714
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6928F9EEE596A73A}" {
+   Id "TTF-Characters_RiflemanAT_Marines"
+   Target_en_us "Rifleman AT (Marine)"
+   Modified 1764307675
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691ADB8BCC07B0E1}" {
    Id "TTF-Characters_RTO"
    Target_en_us "Radio Telephone Operator"
    Modified 1763377378
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6928F9ECF190ACD9}" {
+   Id "TTF-Characters_Section2IC_Marines"
+   Target_en_us "Section 2IC (Marine)"
+   Modified 1764307669
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6928F9E65BCF5D86}" {
+   Id "TTF-Characters_SectionCommander_Marines"
+   Target_en_us "Section Commander (Marine)"
+   Modified 1764307682
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -218,6 +267,27 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6928F9E04B8ABC33}" {
+   Id "TTF-Characters_TroopCommander"
+   Target_en_us "Troop Commander"
+   Modified 1764303348
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6928F9E2636DC4FC}" {
+   Id "TTF-Characters_TroopSergant"
+   Target_en_us "Troop Sergant"
+   Modified 1764304216
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6928F9E3D2353ECF}" {
+   Id "TTF-Characters_TroopSignaller"
+   Target_en_us "Troop Signaller"
+   Modified 1764304534
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691B1395B25CE193}" {
    Id "TTF-Groups_AntiTankSquad"
    Target_en_us "Anti Tank Squad"
@@ -243,6 +313,13 @@ StringTable {
    Id "TTF-Groups_MG_Squad"
    Target_en_us "Machine Gun Squad"
    Modified 1763382921
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69292E072FE38639}" {
+   Id "TTF-Groups_MGSection_Marines"
+   Target_en_us "MG Section (Marines)"
+   Modified 1764308001
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -281,6 +358,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6928F9ED6D6DFAA8}" {
+   Id "TTF-Groups_RifleSection_Marines"
+   Target_en_us "Rifle Section (Marines)"
+   Modified 1764307937
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69254AB54B965F07}" {
    Id "TTF-Groups_RifleSquad_Naval"
    Target_en_us "Rifle Squad (Naval)"
@@ -302,6 +386,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6928F9ED29ED4C69}" {
+   Id "TTF-Groups_TroopHQ_Marines"
+   Target_en_us "Troop HQ"
+   Modified 1764305690
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691A8805C3904250}" {
    Id "TTF-Vehicles_BRMD2_Expl"
    Target_en_us "BRDM-2 (Explosives)"
@@ -320,6 +411,13 @@ StringTable {
    Id "TTF-Vehicles_BTR70_AGS"
    Target_en_us "BTR-70 (AGS-17)"
    Modified 1763370231
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69292E0336F25827}" {
+   Id "TTF-Vehicles_LandRover_Recce_M2"
+   Target_en_us "Land Rover Recce M2 (Fixed)"
+   Modified 1764309838
    Author "siwi1"
    LastChanged "siwi1"
   }

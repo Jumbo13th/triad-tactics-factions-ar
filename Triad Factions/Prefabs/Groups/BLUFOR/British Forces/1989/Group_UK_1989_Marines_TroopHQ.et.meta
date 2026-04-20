@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2BF90B60E97135B8}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Regulars_Marines_TroopHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
