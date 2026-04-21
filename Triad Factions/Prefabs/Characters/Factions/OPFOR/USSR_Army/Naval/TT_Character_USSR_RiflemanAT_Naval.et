@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{EDABFB2F99D9DDE2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Naval/TT_Character_USSR_Rifleman_Naval.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+ }
+}

@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{A0FE5C1E3CB3B10B}Prefabs/Characters/Factions/OPFOR/USSR
     Name "#TTF-Characters_SR_Naval"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
