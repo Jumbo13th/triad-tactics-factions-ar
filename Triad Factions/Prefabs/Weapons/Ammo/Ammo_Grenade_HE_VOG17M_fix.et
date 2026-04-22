@@ -1,0 +1,16 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{5EC4ED74DDD6DD27}" {
+   Enabled 0
+  }
+  CollisionTriggerComponent "{62EAC20082EEDA25}" {
+   PROJECTILE_EFFECTS {
+    AIExplosionEffect "{62EAC20FC782CED5}" {
+    }
+    PS_ReplayProjectileCollisionTrigger "{691CF3CBDAAB9686}" {
+    }
+   }
+  }
+ }
+}
