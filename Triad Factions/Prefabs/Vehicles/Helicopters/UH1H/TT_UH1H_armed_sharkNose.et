@@ -1,0 +1,34 @@
+Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{69369B8239162070}" {
+     SourceMaterial "UH_1H_Body01_6224CA051369DE45"
+     AssignedMaterial "{9E8011EADCCC2F32}Assets/Vehicles/Helicopters/UH1H/Data/UH_1H_Body01_Shark.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{B5CF42FD8CE3F18F}UI/Textures/EditorPreviews/Vehicles/Helicopters/UH1H/UH1H_armed_sharkNose.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69369B820CB02358}" {
+     SlotTemplate InventoryStorageSlot MGammo {
+      Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{69369B820BD10311}" {
+     SlotTemplate InventoryStorageSlot MGammo {
+      Prefab "{9911F55EC05D1A64}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_02.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+ }
+}

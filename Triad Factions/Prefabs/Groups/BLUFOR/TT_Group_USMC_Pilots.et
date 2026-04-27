@@ -1,0 +1,13 @@
+SCR_AIGroup : "{4CAF4192B4B4B3B6}Prefabs/Groups/BLUFOR/TT_Group_USMC_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Groups_Pilots"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{7B1212624F753BE3}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Pilot.et" "{7B1212624F753BE3}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Pilot.et"
+ }
+}

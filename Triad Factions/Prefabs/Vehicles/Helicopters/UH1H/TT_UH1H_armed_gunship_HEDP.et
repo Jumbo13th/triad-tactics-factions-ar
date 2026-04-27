@@ -1,0 +1,43 @@
+Vehicle : "{137DCF41459A89BE}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_empty.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_UH1H_Gunship_Name_HEDP"
+    m_Image "{EA10045F005C5DAE}UI/Textures/EditorPreviews/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2500
+     }
+     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69369B82916E0064}" {
+     SlotTemplate InventoryStorageSlot MGammo {
+      Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+     }
+    }
+    MultiSlotConfiguration "{69369B82669DC2EE}" {
+     SlotTemplate InventoryStorageSlot MGammo {
+      Prefab "{9911F55EC05D1A64}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_02.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WeaponRackSlotInfo M260CarrierVirtual {
+     Prefab "{E3A3B31914A121E0}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_HEDP.et"
+     m_sDefaultWeapon "{E3A3B31914A121E0}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_HEDP.et"
+    }
+   }
+  }
+ }
+}
