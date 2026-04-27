@@ -1,0 +1,19 @@
+SCR_AIGroup : "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Groups_RifleSquad"
+    m_aAuthoredLabels + {
+     CONTENT_MODDED
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{80F07BE2776D10D5}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SL.et" "{FDE8971A12FE2C4C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_SR.et" "{BF6F54E72BA6A625}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_MG.et" "{9071CAB38C479F7C}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AMG.et" "{35D0E33C3C60AC9A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AT.et" "{1ACE7D689B8195C3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_AAT.et" "{6A3677BDFBE9DAD5}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_Rifleman.et" "{9532A3E8F344669A}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_RiflemanAT.et" "{1BDD40F19FD5F5E3}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_Sniper.et"
+ }
+}

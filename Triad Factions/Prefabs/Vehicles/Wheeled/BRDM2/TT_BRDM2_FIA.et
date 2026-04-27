@@ -1,0 +1,110 @@
+Vehicle : "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{693686C5BA4D0F5E}" {
+     SourceMaterial "BRDM2_body_exterior_1"
+     AssignedMaterial "{BAABAFA4965F247A}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_1_FIA.emat"
+    }
+    MaterialAssignClass "{693686C5BA4D0FA2}" {
+     SourceMaterial "BRDM2_body_exterior_MLOD"
+     AssignedMaterial "{FCBDFABDE4E94CE0}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_FIA_MLOD.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{50B8D5DDA17EB35D}" {
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{62F6EC99F0A046DC}" {
+      m_sDefaultOccupantPrefab "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
+     }
+    }
+    CargoCompartmentSlot Passenger {
+     CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
+     }
+     UIInfo UIInfo "{50870A1DC44BA836}" {
+     }
+     m_bIsWaterTight 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{62F6EC99E98F9BF2}" {
+      m_sDefaultOccupantPrefab "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
+     }
+     m_fFreelookCameraNeckFollowTraverse 0
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    IconSetName "FIA"
+    m_Image "{74E16AEB7FDA0140}UI/Textures/EditorPreviews/Vehicles/Wheeled/BRDM2/BRDM2_FIA.edds"
+    m_sFaction "FIA"
+    m_aAuthoredLabels + {
+     CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     FACTION_FIA SIZE_M
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 900
+     }
+     SCR_EntityBudgetValue "{62ACE79B7FDC31CE}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{693686C5A5103280}" {
+     SlotTemplate InventoryStorageSlot kpvt {
+      Prefab "{8257B5AFDE7AE5CB}Prefabs/Weapons/Magazines/Box_145x114_KPVT_50rnd_4API_1APIT.et"
+     }
+     NumSlots 9
+    }
+    MultiSlotConfiguration "{693686C5A5103282}" {
+     SlotTemplate InventoryStorageSlot pkmt {
+      Prefab "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 7
+    }
+    MultiSlotConfiguration "{693686C59FB1B36D}" {
+     SlotTemplate InventoryStorageSlot pkmt {
+      Prefab "{CE9F4ED5A9246CDF}Prefabs/Items/Equipment/Radios/Radio_RF10/TT_Radio_RF10.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{693686C5713EB25F}" {
+     SlotTemplate InventoryStorageSlot pkmt {
+      Prefab "{B02281435AED8274}Prefabs/Characters/HeadGear/Hat_M70_01/Hat_M70_01.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "FIA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{DDC5415783BDCDFB}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_FIA.et"
+    }
+    RegisteringComponentSlotInfo CommanderTurret {
+     Prefab "{EC4064DCA399CD83}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_commander_FIA.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{58F8DC78283E1DDE}" {
+    }
+   }
+  }
+ }
+}

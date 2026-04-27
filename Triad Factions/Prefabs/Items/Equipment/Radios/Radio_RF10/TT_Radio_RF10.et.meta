@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CE9F4ED5A9246CDF}Prefabs/Items/Equipment/Radios/Radio_RF10/TT_Radio_RF10.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -22,6 +22,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{693686CC43361F35}" {
+   Id "TTF-Characters_AMG"
+   Target_en_us "Assistant Machine Gunner"
+   Modified 1765181904
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69254ABA0758700F}" {
    Id "TTF-Characters_AMG_Naval"
    Target_en_us "Assistant Machine Gunner (Naval)"
@@ -187,6 +194,13 @@ StringTable {
    Id "TTF-Characters_Rifleman_Marines"
    Target_en_us "Rifleman (Marine)"
    Modified 1764307714
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69367E430F27728D}" {
+   Id "TTF-Characters_RiflemanAT"
+   Target_en_us "Rifleman (AT)"
+   Modified 1765180521
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -362,6 +376,13 @@ StringTable {
    Id "TTF-Groups_RifleSection_Marines"
    Target_en_us "Rifle Section (Marines)"
    Modified 1764307937
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{693686C5FB77AE3E}" {
+   Id "TTF-Groups_RifleSquad"
+   Target_en_us "Rifle Squad"
+   Modified 1765185098
    Author "siwi1"
    LastChanged "siwi1"
   }

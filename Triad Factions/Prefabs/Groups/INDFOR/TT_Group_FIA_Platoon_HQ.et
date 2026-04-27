@@ -1,0 +1,13 @@
+SCR_AIGroup : "{48CE75A9C6878E66}Prefabs/Groups/INDFOR/TT_Group_FIA_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Groups_Platoon_HQ"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{19EEC27B6A8A2145}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_PL.et" "{D5C827EB0DFD8A0D}Prefabs/Characters/Factions/INDFOR/FIA/TT_Character_FIA_DPL.et"
+ }
+}
