@@ -102,13 +102,6 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
      Prefab "{0A21DC21B1D23732}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Magazines/VehPart_BTR70_AmmoStorage_PKMT_KVPT.et"
      RegisterDamage 1
     }
-    EntitySlotInfo AGS {
-     PivotID "v_turret_01"
-     Offset 0 0 -1.3529
-     Prefab "{CAED9BF0F7536DB8}Prefabs/Weapons/Tripods/6G10/Tripod_6G10_AGS17_PAG17_BTR70.et"
-     DisablePhysicsInteraction 1
-     DeactivatePhysicsOnAtaching 1
-    }
    }
   }
   ActionsManagerComponent "{C97BE5489221AE18}" {

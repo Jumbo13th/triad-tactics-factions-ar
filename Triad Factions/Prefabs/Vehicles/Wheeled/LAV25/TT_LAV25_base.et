@@ -1097,6 +1097,12 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      }
      NumSlots 5
     }
+    MultiSlotConfiguration "{698A9E2642C8531F}" {
+     SlotTemplate InventoryStorageSlot Radios {
+      Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+     }
+     NumSlots 2
+    }
    }
    m_fMaxWeight 1000
   }

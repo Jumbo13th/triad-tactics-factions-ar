@@ -1,0 +1,95 @@
+Vehicle : "{1B8EB269EECA2DF9}Prefabs/Vehicles/Wheeled/LAV25/LAV25_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{50B8D5DDA17EB35D}" {
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_r03 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Offset -0.0581 0 0
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1800
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62C2BB5FC2DB12CF}" {
+     SlotTemplate InventoryStorageSlot bandage {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC2782DE3}" {
+     SlotTemplate InventoryStorageSlot canister {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC38BCCF2}" {
+     SlotTemplate InventoryStorageSlot repairkit {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC3D8B722}" {
+     SlotTemplate InventoryStorageSlot m67 {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC3172633}" {
+     SlotTemplate InventoryStorageSlot smoke {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC4AFFD6E}" {
+     SlotTemplate InventoryStorageSlot stanags {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC4E44E4D}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{698AE618DB2EB8C2}" {
+     SlotTemplate InventoryStorageSlot Radios {
+      Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Animation VehicleAnimation "{617CBBC422754474}" {
+    AnimVariables {
+     AnimationVariable "{698AE6195431478C}" {
+      VariableName "Yaw"
+      SignalName "AimTurnTurret"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{A0514904A496A87C}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{6264BB08A7271AAD}" {
+    }
+   }
+  }
+ }
+}
