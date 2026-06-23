@@ -1,0 +1,83 @@
+GameProject {
+ ID "TriadModernFactions"
+ GUID "69AD3D402EBF15A9"
+ TITLE "Triad Modern Factions"
+ Dependencies {
+  "58D0FB3206B6F859" "69247B77C05069AD" "6912F9D48E9C8422" "595F2BF2F44836FB"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{69AD58165B3619C4}" {
+      StringTableSource "{0EAB96A225B90BFF}Language/tmf_localization.st"
+      Languages {
+       LanguageDefinition "{69AD58165A39385F}" {
+        Code "cs_cz"
+        StringTableRuntime "{577CD9CCE957A42E}Language/tmf_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{69AD58165A393860}" {
+        Code "de_de"
+        StringTableRuntime "{8202C3FFFAF4B50E}Language/tmf_localization.de_de.conf"
+       }
+       LanguageDefinition "{69AD58165A393990}" {
+        Code "en_us"
+        StringTableRuntime "{DCF249B49007B00F}Language/tmf_localization.en_us.conf"
+       }
+       LanguageDefinition "{69AD58165A39399F}" {
+        Code "es_es"
+        StringTableRuntime "{19BE043D7E05DB10}Language/tmf_localization.es_es.conf"
+       }
+       LanguageDefinition "{69AD58165A393989}" {
+        Code "fr_fr"
+        StringTableRuntime "{A216F10A98863812}Language/tmf_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{69AD58165A3939B6}" {
+        Code "it_it"
+        StringTableRuntime "{220A7E3E35A4BBEB}Language/tmf_localization.it_it.conf"
+       }
+       LanguageDefinition "{69AD58165A3939A5}" {
+        Code "ja_jp"
+        StringTableRuntime "{3211C3AC0BD58B40}Language/tmf_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{69AD58165A3939D0}" {
+        Code "ko_kr"
+        StringTableRuntime "{92AFEB0098F8887F}Language/tmf_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{69AD58165A3939C3}" {
+        Code "pl_pl"
+        StringTableRuntime "{CEDE4DFA26171403}Language/tmf_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{69AD58165A3939CD}" {
+        Code "pt_br"
+        StringTableRuntime "{1BA9D7361DE9DEB9}Language/tmf_localization.pt_br.conf"
+       }
+       LanguageDefinition "{69AD58165A3939FA}" {
+        Code "ru_ru"
+        StringTableRuntime "{4EE8C39E8090BBCF}Language/tmf_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{69AD58165A3939EB}" {
+        Code "uk_ua"
+        StringTableRuntime "{C4B09668ECBE059A}Language/tmf_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{69AD58165A39394F}" {
+        Code "zh_cn"
+        StringTableRuntime "{1E00F855D51ED587}Language/tmf_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

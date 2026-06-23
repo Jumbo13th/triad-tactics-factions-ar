@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{36A0A239B6625AC7}Prefabs/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_Pilot.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

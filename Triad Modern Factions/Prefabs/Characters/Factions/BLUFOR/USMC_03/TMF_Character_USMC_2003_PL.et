@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{A12AD5B7C84B6907}Prefabs/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_USMC_PL_2003"
+    m_Image "{17A77459267CC9AB}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_PL_BCR.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0031CC5BA6D281C9}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_DCU.et"
+    }
+   }
+  }
+ }
+}

@@ -23,7 +23,7 @@ SCR_ChimeraCharacter : "{6A3677BDFBE9DAD5}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{D4028ED16DEE99EE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camonet.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{CE9F4ED5A9246CDF}Prefabs/Items/Equipment/Radios/Radio_RF10/TT_Radio_RF10.et"
+     Prefab "{09F7D28EBBE9084F}Prefabs/Items/Equipment/Radios/TT_Radio_R107M_FIA.et"
     }
    }
   }

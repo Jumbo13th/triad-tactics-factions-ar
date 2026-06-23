@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2AFC5C71156AC758}Prefabs/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_Rifleman_v2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

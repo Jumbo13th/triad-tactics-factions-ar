@@ -1,0 +1,7 @@
+GameMaterial : "{A11A27E71B4CFD76}Common/Materials/Game/Core/hard_aramid_base.gamemat" {
+ BallisticInfo BallisticInfo "{5D6CD1C185943177}" {
+  Density 0.001
+  KineticPenetrationResistance 0.3
+  Thickness 0.1
+ }
+}

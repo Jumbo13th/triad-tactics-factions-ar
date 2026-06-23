@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{2AFC5C71156AC758}Prefabs/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_Rifleman_v2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_USMC_Rifleman_AT_2003"
+    m_Image "{B930DE31230E0879}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_Rifleman_v2_AT_BCR.edds"
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{8A356B5994888373}Prefabs/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_Rifleman_v1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_USMC_AMG_2003"
+    IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_Image "{934F9A125666C071}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_AMG_BCR.edds"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_US CONTENT_MODDED ROLE_AMMOBEARER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E69574F6161D0C16}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles_DCU.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{851A2472F2FA5295}Prefabs/Characters/Uniforms/Jacket_US_DCU_rolledup.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Jacket/Jacket_US_DCU_rolledup.et"
+    }
+    ItemsInitConfigurationItem "{69AF25F341E28412}" {
+     TargetStorage "Back/Backpack_ALICE_Medium.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

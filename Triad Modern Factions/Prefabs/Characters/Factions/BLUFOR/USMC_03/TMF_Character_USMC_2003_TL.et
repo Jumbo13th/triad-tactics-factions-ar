@@ -1,0 +1,112 @@
+SCR_ChimeraCharacter : "{8A356B5994888373}Prefabs/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_Rifleman_v1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_USMC_TeamLeader_2003"
+    IconSetName "EditableEntity_Character_Leader_Team"
+    m_Image "{B1875E85084DAC4E}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_TL_BCR.edds"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_US CONTENT_MODDED ROLE_LEADER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A77A68D971BAAB22}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{851A2472F2FA5295}Prefabs/Characters/Uniforms/Jacket_US_DCU_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B921E68182073EFE}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_wThroatP_v3_wdl.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4292B5C3073EECE5}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_grenadier_wdl.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Jacket/Jacket_US_DCU_rolledup.et"
+    }
+    ItemsInitConfigurationItem "{69AD5814BE84F6B4}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_L11/Pouch_MOLLE-40mmDouble_base.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69AD58146885D383}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_L12/Pouch_MOLLE-M16_single_base.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69AD58147D54E062}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_L13/Pouch_MOLLE-M16_single_base.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69AD581448858234}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_L21/Pouch_MOLLE-40mmDouble_base.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69AD58145CF40657}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_L22/Pouch_MOLLE-40mmSingle_base.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69AD58143C50EBE0}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_R11/Pouch_MOLLE-M16Open_base.et"
+    }
+    ItemsInitConfigurationItem "{69AD58143697379D}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_R12/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69AD581405A84FF7}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_R21/Pouch_MOLLE-40mmDouble_base.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69AD58141B367DF0}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_R22/Pouch_MOLLE-40mmSingle_base.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69AD5D8422319E52}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_grenadier_wdl.et/Slot_L31/Pouch_MOLLE-Grenade_bandage.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69AD5D840F046F56}" {
+     TargetStorage "Back/Backpack_ALICE_Medium.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{2AFC5C71156AC758}Prefabs/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_Rifleman_v2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_USMC_SL_2003"
+    IconSetName "EditableEntity_Character_Leader_Squad"
+    m_Image "{3D8353FAD092AF84}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_SL_BCR.edds"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_US CONTENT_MODDED ROLE_LEADER
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E69574F6161D0C16}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles_DCU.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{851A2472F2FA5295}Prefabs/Characters/Uniforms/Jacket_US_DCU_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{F58E94B8159DB8CC}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_v2_wThroatP_v4_wdl.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{ACEBE7286C953F08}Prefabs/Items/Equipment/Radios/TMF_Radio_ANPRC77.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{066C75156AEAF493}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_rifleman_v5_wdl.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Jacket/Jacket_US_DCU_rolledup.et"
+    }
+    ItemsInitConfigurationItem "{69AD5814BE84F6B4}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v5_wdl.et/Slot_L11/Pouch_MOLLE-M4_base.et"
+    }
+    ItemsInitConfigurationItem "{69AD58146885D383}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v5_wdl.et/Slot_L12/Pouch_MOLLE-M4_base.et"
+    }
+    ItemsInitConfigurationItem "{69AD58147D54E062}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v5_wdl.et/Slot_L13/Pouch_MOLLE-MedicPocket_base.et"
+    }
+    ItemsInitConfigurationItem "{69AD581448858234}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v5_wdl.et/Slot_R11/Pouch_MOLLE-M4_open.et"
+    }
+    ItemsInitConfigurationItem "{69AD58145CF40657}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v5_wdl.et/Slot_R12/Pouch_MOLLE-M4_open.et"
+    }
+    ItemsInitConfigurationItem "{69AD58143C50EBE0}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v5_wdl.et/Slot_R13/Pouch_MOLLE-GeneralPurpose_base.et"
+    }
+    ItemsInitConfigurationItem "{69AD58143697379D}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v5_wdl.et/Slot_L13/Pouch_MOLLE-MedicPocket_base.et"
+    }
+    ItemsInitConfigurationItem "{69AD581405A84FF7}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v5_wdl.et/Slot_R13/Pouch_MOLLE-GeneralPurpose_base.et"
+    }
+    ItemsInitConfigurationItem "{69AD58141B367DF0}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v5_wdl.et/Slot_L13/Pouch_MOLLE-MedicPocket_base.et"
+    }
+   }
+  }
+ }
+}
