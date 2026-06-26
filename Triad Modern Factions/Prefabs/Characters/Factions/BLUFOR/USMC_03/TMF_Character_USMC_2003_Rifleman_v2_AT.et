@@ -7,5 +7,8 @@ SCR_ChimeraCharacter : "{2AFC5C71156AC758}Prefabs/Characters/Factions/BLUFOR/USM
     m_Image "{B930DE31230E0879}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_Rifleman_v2_AT_BCR.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
  }
 }
