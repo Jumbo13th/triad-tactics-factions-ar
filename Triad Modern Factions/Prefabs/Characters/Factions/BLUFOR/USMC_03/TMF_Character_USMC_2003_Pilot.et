@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{AA9601DC2802C5FC}Prefabs/Characters/Factions/BLUFOR/USM
     IconSetName "EditableEntity_Character_Helicopter_Pilot"
     m_Image "{F183BCE6F5F233B4}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_Pilot_BCR.edds"
     m_aAuthoredLabels + {
-     CONTENT_MODDED
+     CONTENT_MODDED ROLE_LEADER
     }
    }
   }
