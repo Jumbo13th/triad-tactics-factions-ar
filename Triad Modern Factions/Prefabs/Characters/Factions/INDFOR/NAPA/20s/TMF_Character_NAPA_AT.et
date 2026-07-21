@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AT"
+    IconSetName "EditableEntity_Character_Anti_Tank"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_ANTITANK
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F88F9470024CA771}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_b18_b11u_b19n_agr47_glcore_22.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C24F9C649712C429}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_Shirts/Helmet_Exfil_Coy_ION3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{738817B8BFA36DE6}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_AOR2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B3123B204D2C0BFD}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_AOR2.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E93B1649CB794B}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{69E93B1649CB7973}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_Rolled_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{69E9463E3D7C2EE3}" {
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
+     }
+    }
+   }
+  }
+ }
+}

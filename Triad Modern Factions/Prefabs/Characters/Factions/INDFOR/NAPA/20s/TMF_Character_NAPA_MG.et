@@ -1,0 +1,94 @@
+SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_MG"
+    IconSetName "EditableEntity_Character_Machinegunner"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_MACHINEGUNNER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4BE4931DF7B1ABCD}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_Eot.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{533CCB961DBD36BE}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_r_Modded.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0CAEBEC1E5B84ADA}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_OutT_RollS_MC_BLK.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{7028D46E1F6044BF}Prefabs/Characters/Vests/Vest_TV110/Vest_TV110_OD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DDCEC0797104A7E7}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_TRP_camo/CP_G3_Pants_KpadsG3_MC_TRP.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9626CD89661F09AF}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_MG_OD.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E93B1649CB794B}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_TRP.et"
+    }
+    ItemsInitConfigurationItem "{69E93B1649CB7973}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_OutT_RollS_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{69E9463B98D8984B}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_TRP.et"
+    }
+    ItemsInitConfigurationItem "{69E94638C0D05844}" {
+     TargetStorage "Vest/Vest_TV115_MG_OD.et/PKM1/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+      "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EF41FBD0B}" {
+     TargetStorage "Vest/Vest_TV115_MG_OD.et/PKM2/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+      "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EC3B3D9FE}" {
+     TargetStorage "Vest/Vest_TV115_MG_OD.et/PKM1/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EDF03FEF9}" {
+     TargetStorage "Vest/Vest_TV115_MG_OD.et/PKM1/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EB3E17873}" {
+     TargetStorage "Vest/Vest_TV115_MG_OD.et/PKM1/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463E84FB85A7}" {
+     TargetStorage "Vest/Vest_TV115_MG_OD.et/PKM1/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463E7FB99A70}" {
+     TargetStorage "Vest/Vest_TV115_MG_OD.et/PKM1/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463E4B4B833C}" {
+     TargetStorage "Vest/Vest_TV115_MG_OD.et/up104/Pouch_UP105_utilbig_OD.et"
+    }
+    ItemsInitConfigurationItem "{69E9463E3D7C2EE3}" {
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

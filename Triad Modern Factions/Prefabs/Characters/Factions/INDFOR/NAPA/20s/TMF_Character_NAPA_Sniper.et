@@ -1,0 +1,112 @@
+SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_Sniper"
+    IconSetName "EditableEntity_Character_Sharpshooter"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_SHARPSHOOTER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8909A91CFF369BB3}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_olive.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7B42DB891C879E3E}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/CP_G3_Shirt_ColA_BaseT_FullS_BLK.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{A469DB18C977FAFE}Prefabs/Characters/Vests/Vest_TV115/Vest_TV115_OD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DE8616CA87C165E3}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_GRN.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{3B70D4D86A4E7B12}Prefabs/Characters/Vests/Vest_TV115/variants/TMF_Vest_TV115_Rifleman_OD2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E93B1649CB794B}" {
+     TargetStorage "Pants/Goblin_pants_GRN.et"
+    }
+    ItemsInitConfigurationItem "{69E93B1649CB7973}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_FullS_BLK.et"
+    }
+    ItemsInitConfigurationItem "{69E9463B98D8984B}" {
+     TargetStorage "Pants/Goblin_pants_GRN.et"
+     PrefabsToSpawn {
+      "{F3D19E6D77A6BC3A}Prefabs/Items/Equipment/Radios/TMF_Radio_R187P1_NAPA_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E94638C0D05844}" {
+     TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/sasarma1/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EF41FBD0B}" {
+     TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/sasarma2/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EC3B3D9FE}" {
+     TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/up103/Pouch_UP103_Medkit_OD.et"
+     PrefabsToSpawn {
+      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EDF03FEF9}" {
+     TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/up104/Pouch_UP105_utilbig_OD.et"
+     PrefabsToSpawn {
+      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EB3E17873}" {
+     TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/up118/Pouch_UP118_fannypack_OD.et"
+     PrefabsToSpawn {
+      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463E84FB85A7}" {
+     TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/holster/Pouch_GP106_RGD_Pouch_2_OD.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463E7FB99A70}" {
+     TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/triple/pouch_tv115_OD.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463E4B4B833C}" {
+     TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/up118/Pouch_UP118_fannypack_OD.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463E3D7C2EE3}" {
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+     }
+    }
+   }
+  }
+ }
+}

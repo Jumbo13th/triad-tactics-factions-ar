@@ -1,6 +1,97 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
+  CustomStringTableItem "{69E953A41002A8F9}" {
+   Id "TMF_Characters_AAT"
+   Target_en_us "Assistant Anti-Tank"
+   Modified 1776902912
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB3912A7A6C33E}" {
+   Id "TMF_Characters_AMG"
+   Target_en_us "Assistant Machine Gunner"
+   Modified 1777025940
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69E953A7ABF6BC4D}" {
+   Id "TMF_Characters_AT"
+   Target_en_us "Anti-Tank"
+   Modified 1776900938
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB391A4487A692}" {
+   Id "TMF_Characters_DPL"
+   Target_en_us "Deputy Platoon Leader"
+   Modified 1777030038
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB3915B81F42C9}" {
+   Id "TMF_Characters_MG"
+   Target_en_us "Machine Gunner"
+   Modified 1777024332
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB391AFA8AA7DE}" {
+   Id "TMF_Characters_PL"
+   Target_en_us "Platoon Leader"
+   Modified 1777029766
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69E9463FF9A13A3C}" {
+   Id "TMF_Characters_Rifleman"
+   Target_en_us "Rifleman"
+   Modified 1776898137
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69E9463FCFE9FE6B}" {
+   Id "TMF_Characters_RiflemanAT"
+   Target_en_us "Rifleman AT"
+   Modified 1776898160
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB391C167B7B6F}" {
+   Id "TMF_Characters_SL"
+   Target_en_us "Squad Leader"
+   Modified 1777029258
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB58A06B223064}" {
+   Id "TMF_Characters_Sniper"
+   Target_en_us "Sniper"
+   Modified 1777032485
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB58A354514D3B}" {
+   Id "TMF_Characters_Spotter"
+   Target_en_us "Spotter"
+   Modified 1777032129
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB391FCE09E683}" {
+   Id "TMF_Characters_SR"
+   Target_en_us "Senior Rifleman"
+   Modified 1777027239
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69E93B13A0A6AFBF}" {
+   Id "TMF_Factions_NAPA"
+   Target_en_us "NAPA"
+   Modified 1776893290
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69AF25FE24F00337}" {
    Id "TMF_Groups_Pilots"
    Target_en_us "Pilots"
@@ -8,10 +99,45 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69EB58A18713AE36}" {
+   Id "TMF_Groups_PlatoonHQ"
+   Target_en_us "Platoon HQ"
+   Modified 1777032916
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB58A1ECAA13D2}" {
+   Id "TMF_Groups_RifleSquad"
+   Target_en_us "Rifle Squad"
+   Modified 1777032722
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB58A61E9B960F}" {
+   Id "TMF_Groups_Snipers"
+   Target_en_us "Snipers"
+   Modified 1777033851
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69AF25FED47E9946}" {
    Id "TMF_Pilot"
    Target_en_us "Pilot"
    Modified 1773090917
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69E946392150E67A}" {
+   Id "TMF_Radio_Hand_NAPA"
+   Target_en_us "Handheld Radio (NAPA)"
+   Modified 1776897305
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EB391C803ED432}" {
+   Id "TMF_Radio_Hand_NAPA_SL"
+   Target_en_us "Handheld Radio (NAPA, SL)"
+   Modified 1777028756
    Author "siwi1"
    LastChanged "siwi1"
   }

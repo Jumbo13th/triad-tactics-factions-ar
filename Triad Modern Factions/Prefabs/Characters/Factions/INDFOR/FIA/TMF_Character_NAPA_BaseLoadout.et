@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames {
+    "{B42CA0D861799AE9}Sounds/RadioProtocol/RadioProtocol_Report_RU.acp" "{2BBB4A9DA10EE163}Sounds/RadioProtocol/RadioProtocol_Movement_FIA.acp" "{5B2A0174F1C27445}Sounds/RadioProtocol/RadioProtocol_Confirmations_FIA.acp" "{65F6CCB82ABA12FB}Sounds/RadioProtocol/RadioProtocol_Combat_FIA.acp" "{30C6D89341B1EA1A}Sounds/Character/Character_Voice_Code.acp" "{C9BE186498C3B447}Sounds/Character/Character_Voice_Animations.acp" "{EA06766D8B13B414}Sounds/RadioProtocol/RadioProtocol_Actions_FIA.acp" "{2B5C7E7FB00C9371}Sounds/RadioProtocol/RadioProtocol_Report_2_FIA.acp"
+   }
+  }
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{61A705D76908160C}Prefabs/Items/Equipment/Watches/Watch_Orlik38/Watch_Orlik38.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{555C98D1CD949F3E}" {
+   "faction affiliation" "NAPA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "FIA"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B02281435AED8274}Prefabs/Characters/HeadGear/Hat_M70_01/Hat_M70_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{BBA08EC4EC40FA94}Prefabs/Characters/Uniforms/Jacket_M70.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{06BC3F18B47799AE}Prefabs/Characters/Uniforms/Pants_M70.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E93B16BD916E2E}" {
+     TargetStorage "Pants/Pants_M70.et"
+     PrefabsToSpawn {
+      "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/Radio_R148_FIA.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{983B57B8E95C1F52}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_FIA.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E93B16BD916E59}" {
+     TargetStorage "Jacket/Jacket_M70.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+   }
+  }
+ }
+}

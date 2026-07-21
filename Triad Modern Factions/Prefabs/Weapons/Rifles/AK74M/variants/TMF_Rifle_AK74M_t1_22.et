@@ -1,0 +1,27 @@
+GenericEntity : "{52AAD6F018C12DE7}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_b10m.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Prefab "{1DAEA9434BBB003E}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_low.et"
+     }
+    }
+    AttachmentSlotComponent "{60CC8875532C0317}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{86E71F45F9238778}Prefabs/Weapons/Attachments/Handguards/Handguard_AK74M/Handguard_Zenitco_B10M_B19.et"
+     }
+    }
+    AttachmentSlotComponent "{66836508398193D8}" {
+     AttachmentSlot InventoryStorageSlot Foregrip {
+      Prefab "{8B408A3D9367CB43}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK0_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+    }
+   }
+  }
+ }
+}

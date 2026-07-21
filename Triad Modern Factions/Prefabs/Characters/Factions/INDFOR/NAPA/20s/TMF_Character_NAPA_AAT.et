@@ -1,0 +1,107 @@
+SCR_ChimeraCharacter : "{EB69B412503CD821}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_AT.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AAT"
+    IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_AMMOBEARER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{25916274DC43A1F8}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_EOTECH_22.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{54A7E4E38371553E}Prefabs/Characters/HeadGear/Helmet_Exfil/Helmet_Exfil_Blk.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B2A1D31059A24138}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/CP_G3_Shirt_ColA_BaseT_PushS_BLK.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{35FF6F97064F26B1}Prefabs/Characters/Vests/Vest_TV150/Vest_TV150_RGR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0582824144076873}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_TRP_camo/CP_G3_Pants_KpadsG2_MC_TRP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{98BB407137B58733}Prefabs/Characters/Vests/Vest_TV150/variants/Vest_TV150_rifleman_OD_no_pistol.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E93B1649CB794B}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG2_MC_TRP.et"
+    }
+    ItemsInitConfigurationItem "{69E93B1649CB7973}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_PushS_BLK.et"
+    }
+    ItemsInitConfigurationItem "{69E9463B98D8984B}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/ak_1/Pouch_wartech_magpouch_mp105_2_OD.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69E94638C0D05844}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn + {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EF41FBD0B}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/radio/Pouch_UP111_radioClosed_OD.et"
+     PrefabsToSpawn {
+      "{E84E06118E104F21}Prefabs/Items/Equipment/Radios/TMF_Radio_R187P1_NAPA.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E9463EC3B3D9FE}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/placard/Pouch_wartech_magpouch_mp105_3_OD.et"
+    }
+    ItemsInitConfigurationItem "{69E9463EDF03FEF9}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/pistol1/Pouch_wartech_magpouch_mp105_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{69E9463EB3E17873}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/ak_1/Pouch_wartech_magpouch_mp105_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{69E9463E84FB85A7}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/up118/Pouch_UP118_fannypack_OD.et"
+    }
+    ItemsInitConfigurationItem "{69E9463E7FB99A70}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/util/Pouch_UP109_utillmid_OD.et"
+    }
+    ItemsInitConfigurationItem "{69E9463E4B4B833C}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/util/Pouch_UP109_utillmid_OD.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E953AB767BBC47}" {
+     TargetStorage "Vest/Vest_TV150_rifleman_OD_no_pistol.et/medkit/Pouch_UP103_Medkit_OD.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

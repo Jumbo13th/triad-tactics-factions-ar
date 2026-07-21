@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{C757955506D655FE}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_PL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_DPL"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3C30367D46B42FC5}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_t1_22_3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BABE1B6C0065846A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_r_p.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{8F3A8E321062EF55}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_TRP_camo/CP_G3_Shirt_ColA_OutT_FullS_MC_TRP.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B3123B204D2C0BFD}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_AOR2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E93B1649CB794B}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{69E93B1649CB7973}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_OutT_FullS_MC_TRP.et"
+    }
+   }
+  }
+ }
+}

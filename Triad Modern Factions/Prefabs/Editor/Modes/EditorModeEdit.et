@@ -1,0 +1,13 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{69E9463CE81A3973}" : "{7CCF34383FCDBA94}Configs/Editor/PlaceableEntities/Characters_NAPA.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{69EB58A11268C570}" : "{23ED5F2AFF4B7B44}Configs/Editor/PlaceableEntities/Groups_NAPA.conf" {
+    }
+   }
+  }
+ }
+}

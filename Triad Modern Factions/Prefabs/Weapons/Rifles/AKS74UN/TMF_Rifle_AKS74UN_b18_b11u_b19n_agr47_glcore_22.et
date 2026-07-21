@@ -1,0 +1,27 @@
+GenericEntity : "{D411E28489CEDA63}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_b18_b11u_b19n.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D30F746C09A7B1D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot underbarrel {
+      Prefab "{1DAEA9434BBB003E}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_low.et"
+     }
+    }
+    AttachmentSlotComponent "{698915080B8886EF}" {
+     AttachmentSlot InventoryStorageSlot pistolgrip {
+      Prefab "{E18774762DB88D28}Prefabs/Weapons/Attachments/Grips/PistolGrip_AK74M_Fab_Agr47/RHS_AK74M_PistolGrip_Fab_Agr47.et"
+     }
+    }
+    AttachmentSlotComponent "{698915087D9D0D11}" {
+     AttachmentSlot InventoryStorageSlot stock {
+      Prefab "{03817C5D193A96DF}Prefabs/Weapons/Attachments/Stocks/Stock_AK200_Standart/RHS_AK200_Stock_GlCore.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+    }
+   }
+  }
+ }
+}

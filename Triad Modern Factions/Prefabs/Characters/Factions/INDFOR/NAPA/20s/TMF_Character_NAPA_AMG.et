@@ -1,0 +1,59 @@
+SCR_ChimeraCharacter : "{53E2512827E0DC3A}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_RiflemanAT.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AMG"
+    IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_AMMOBEARER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D9AC7A844A51B8AE}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_t1_22_2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B709C473AC203A68}Prefabs/Characters/HeadGear/Helmet_Exfil/Helmet_Exfil_Coy.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B8512601C5450701}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_TRP_camo/CP_G3_Shirt_ColA_BaseT_FullS_MC_TRP.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B3123B204D2C0BFD}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_AOR2.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E93B1649CB794B}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{69E93B1649CB7973}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_FullS_MC_TRP.et"
+    }
+    ItemsInitConfigurationItem "{69E9463E3D7C2EE3}" {
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+GameEntity : "{A7DAD7C2E845338D}Prefabs/Characters/Vests/Vest_TV150/variants/Vest_TV150_rifleman_MC.et" {
+ ID "6216975224AE5CFA"
+ components {
+  RHS_ClothNodeStorageComponent "{6216975224AE5B15}" {
+   Attributes SCR_ItemAttributeCollection "{6216975224AE5B1F}" {
+    ItemDisplayName UIInfo "{6216975224AE5B1A}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_TV150_Base_Name [1] #RHS-Camo_Olive"
+     Description "#RHS-Vest_TV150_Pouch_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6216975224AE5B4A}" {
+   Slots {
+    LoadoutSlotInfo arsbelt {
+     Prefab "{9B3FB19617D927E0}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    LoadoutSlotInfo arsbelt2 {
+     Prefab "{9B3FB19617D927E0}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    LoadoutSlotInfo medkit {
+     Prefab "{70FC7E1299068D0E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_OD.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{DD55971A433E1B3F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_OD.et"
+    }
+    LoadoutSlotInfo util {
+     Prefab "{ADFB70D0C970680A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_OD.et"
+    }
+    LoadoutSlotInfo holster {
+     Prefab ""
+    }
+    LoadoutSlotInfo drop {
+     Prefab "{AE4368DBA0FFA63E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP113_DropPouch_OD.et"
+    }
+    LoadoutSlotInfo pistol {
+     Prefab ""
+    }
+    LoadoutSlotInfo placard {
+     Prefab "{5CF58B97C240AA31}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_OD.et"
+    }
+    LoadoutSlotInfo Grenade {
+     Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    LoadoutSlotInfo grenade2 {
+     Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    LoadoutSlotInfo pistol1 {
+     Offset -0.0824 0.0483 0.1864
+     Angles -0.345 -9.4652 0.9844
+     Prefab "{9B391B0A3716E93D}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_OD.et"
+    }
+    LoadoutSlotInfo pistol3 {
+     Prefab ""
+    }
+    LoadoutSlotInfo up118 {
+     Prefab "{9D47CBAE76627B53}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP118_fannypack_OD.et"
+    }
+    LoadoutSlotInfo ak_1 {
+     Prefab "{9B391B0A3716E93D}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_OD.et"
+    }
+    LoadoutSlotInfo placard1 {
+     Prefab "{965229B00566408E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_TV150_front_molle_OD.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{69BBCA89C8DA4221}Assets/Characters/Belts/Belt_ArsArma_HSGI/data/arsbelt_olive.emat"
+   }
+   ItemMaterialsOverride {
+    "{69BBCA89C8DA4221}Assets/Characters/Belts/Belt_ArsArma_HSGI/data/arsbelt_olive.emat"
+   }
+  }
+ }
+}

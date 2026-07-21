@@ -1,0 +1,77 @@
+GameEntity : "{90430794C78C21B0}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_preset_base.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  RHS_ClothNodeStorageComponent "{6212A0DD8DDB0FEF}" {
+   Attributes SCR_ItemAttributeCollection "{6212A0DD8DDB0FEB}" {
+    ItemDisplayName UIInfo "{6212A0DD8DDB0FE9}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_TV115_Base_Name [2] - #RHS-Color_Olive"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo sasarma1 {
+     PivotID "Spine1"
+     Offset -0.1782 0.0199 0.0846
+     Angles 8.7735 -60.7367 -1.1015
+     Prefab "{9B3FB19617D927E0}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    LoadoutSlotInfo sasarma2 {
+     PivotID "Spine1"
+     Offset -0.2013 0.0186 0.0021
+     Angles 8.37 -89.76328 -5.3161
+     Prefab "{9B3FB19617D927E0}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    LoadoutSlotInfo up103 {
+     PivotID "Spine1"
+     Offset 0.1902 0.0267 -0.091
+     Angles 6.2802 125.7565 1.4517
+     Prefab "{70FC7E1299068D0E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_OD.et"
+    }
+    LoadoutSlotInfo up104 {
+     PivotID "Spine1"
+     Offset 0.0704 0.0734 -0.1653
+     Angles 6.2123 172.2453 0.9823
+     Prefab "{D350D54887293B29}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP105_utilbig_OD.et"
+    }
+    LoadoutSlotInfo triple {
+     PivotID "Spine5"
+     Offset 0.0001 0.0291 0.1611
+     Angles -8.09 0 0
+     Prefab "{AE2F0E3D6474581D}Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv115_OD.et"
+    }
+    LoadoutSlotInfo holster {
+     PivotID "Spine1"
+     Offset 0.2401 0.0302 0.0004
+     Angles 5.5766 87.13638 1.1038
+     Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     PivotID "Spine1"
+     Offset 0.1736 0.0537 0.0897
+     Angles 5.5758 64.6672 -1.1077
+     Prefab "{AC60F2E68FA2E0F9}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP104_utilmini_base.et"
+    }
+    LoadoutSlotInfo drop {
+     PivotID "Spine1"
+     Offset -0.1612 -0.0469 -0.0912
+     Angles 4.8281 14.1019 -0.8398
+    }
+    LoadoutSlotInfo up118 {
+     PivotID "Spine5"
+     Offset -0.0108 -0.1044 0.1561
+     Angles -2.721 0 0
+     Prefab "{9D47CBAE76627B53}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP118_fannypack_OD.et"
+    }
+   }
+   WornModel "{474482B7D5A31C48}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_TV107.xob"
+   WornMaterialsOverride {
+   }
+   ItemModel "{595F3EF087206227}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_ground.xob"
+   ItemMaterialsOverride {
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 50.625 1 168.125
+}

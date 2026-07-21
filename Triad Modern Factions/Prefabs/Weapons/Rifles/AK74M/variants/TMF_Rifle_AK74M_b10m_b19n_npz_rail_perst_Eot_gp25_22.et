@@ -1,0 +1,22 @@
+GenericEntity : "{7653173FE8806DED}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_b10m_b19n_npz_rail_perst_Eot.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{51F6738D2EC74BE1}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+     }
+    }
+    AttachmentSlotComponent "{5E9CA21FA76B5BFB}" {
+     AttachmentSlot InventoryStorageSlot gp_buttpad {
+      Prefab "{D901305DD97960AD}Prefabs/Weapons/Attachments/Misc/AkGpButtPad/akGPbutt.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+    }
+   }
+  }
+ }
+}

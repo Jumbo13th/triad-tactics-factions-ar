@@ -1,0 +1,102 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Groups_Snipers"
+    m_sFaction "NAPA"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_NAPA
+    }
+    m_aAutoLabels {
+     GROUPSIZE_SMALL
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{69EB58A14E14B03D}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{69EB58A14E14B025}" {
+      m_BudgetType AI_SERVER
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69EB58A14E14B024}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{69EB58A14E14B029}" {
+     m_Identity INDFOR
+     m_Dimension LAND
+     m_Icons 0
+     m_Amplifier NONE
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{69EB58A14E14B02A}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{69EB58A14E14B02C}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{69EB58A14E14B02F}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{69EB58A14E14B02E}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{69EB58A14E14B051}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{69EB58A14E14B050}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_faction "NAPA"
+ m_aUnitPrefabSlots {
+  "{A9B4E4E8730C3269}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_Sniper.et" "{389C3E4B0DAA849E}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_Spotter.et"
+ }
+}
