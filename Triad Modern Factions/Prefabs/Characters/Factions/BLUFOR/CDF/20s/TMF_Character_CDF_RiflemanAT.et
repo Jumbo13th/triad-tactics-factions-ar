@@ -1,0 +1,99 @@
+SCR_ChimeraCharacter : "{24F6548096C546D0}Prefabs/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AAT"
+    m_Image "{71CDF33AF82640BE}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_RiflemanAT_BCR.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{176B7180CED35D19}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_b30_b31s_PDC_AGR47_GLCore_22.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{AA28144C1153A86B}Prefabs/Characters/Vests/Vest_AA_A18/Vest_AA_A18_Coy.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{BC4ABD18AF9564D5}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack_Heavy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{376EB23B72A77355}Prefabs/Characters/Vests/Vest_AA_A18/variants/TMF_Vest_A18_HSGI_Coy_1_no_holster.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69ED3917B7A92FE7}" {
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69EF3029F9CB9469}" {
+     TargetStorage "Vest/TMF_Vest_A18_HSGI_Coy_1_no_holster.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+     PrefabsToSpawn {
+      "{DBD82F5613F7C96D}Prefabs/Items/Equipment/Radios/TMF_Radio_ANPRC152A_CDF.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69EF3029F9CB959F}" {
+     TargetStorage "Vest/TMF_Vest_A18_HSGI_Coy_1_no_holster.et/arsbelt2/Pouch_ArsArma_magouch_morphed_COY.et"
+     PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69EF3029F9CB959E}" {
+     TargetStorage "Vest/TMF_Vest_A18_HSGI_Coy_1_no_holster.et/arsbelt_up105_bigutil/Pouch_GP106_RGD_Pouch_MC.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69EF3029F9CB9581}" {
+     TargetStorage "Vest/TMF_Vest_A18_HSGI_Coy_1_no_holster.et/slot/Pouch_ArsArma_magouch_morphed_COY.et"
+     PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69EF3029F9CB9580}" {
+     TargetStorage "Vest/TMF_Vest_A18_HSGI_Coy_1_no_holster.et/slot2/Pouch_ArsArma_magouch_morphed_COY.et"
+     PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69EF3029F9CBF376}" {
+     TargetStorage "Vest/TMF_Vest_A18_HSGI_Coy_1_no_holster.et/slot3/Pouch_ArsArma_magouch_morphed_COY.et"
+     PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69EF3029F9CBF374}" {
+     TargetStorage "Vest/TMF_Vest_A18_HSGI_Coy_1_no_holster.et/slot4/Pouch_ArsArma_magouch_morphed_COY.et"
+     PrefabsToSpawn {
+      "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et" "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69EF3029F9CBF373}" {
+     TargetStorage "Vest/TMF_Vest_A18_HSGI_Coy_1_no_holster.et/up104/Pouch_UP104_utilmini_MC.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69EF3029F9CB4818}" {
+     TargetStorage "Vest/TMF_Vest_A18_HSGI_Coy_1_no_holster.et/up103/Pouch_UP103_Medkit_MC.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

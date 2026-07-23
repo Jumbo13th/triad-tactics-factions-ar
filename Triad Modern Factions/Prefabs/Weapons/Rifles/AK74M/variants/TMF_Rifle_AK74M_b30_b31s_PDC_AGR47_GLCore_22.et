@@ -1,0 +1,28 @@
+GenericEntity : "{9C7EA1D6A2E132A7}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_b30_b31s_b33_AGR47_GLCore.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Offset 0 -0.0056 0.1313
+      Prefab "{1DAEA9434BBB003E}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_low.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73E86574E4}" {
+     AttachmentSlot InventoryStorageSlot DustCover {
+      Prefab "{C623F1E85DED0A16}Prefabs/Weapons/Attachments/DustCovers/DustCover_AK74M_Fab_PDC/RHS_AK74M_DustCover_FAB_PDC_ak74m.et"
+     }
+    }
+    AttachmentSlotComponent "{66755D644E566176}" {
+     AttachmentSlot InventoryStorageSlot ForwardGrip {
+      Prefab "{49F469152782CB41}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK6.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+    }
+   }
+  }
+ }
+}

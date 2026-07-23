@@ -5,6 +5,7 @@ param(
     [string]$CharactersMetaDirectory = "UI/Textures/EditorPreviews/Characters/Factions",
     [string]$GroupsMetaDirectory = "UI/Textures/EditorPreviews/Groups",
     [string]$NameSuffix = "_BCR",
+    [string[]]$Factions = @(),
     [switch]$DryRun
 )
 
@@ -182,6 +183,7 @@ function Update-PrefabsFromMeta {
         [string]$Kind,
         [Parameter(Mandatory = $true)]
         [string]$Suffix,
+        [string[]]$FactionFilter = @(),
         [switch]$DryRun
     )
 
@@ -202,6 +204,12 @@ function Update-PrefabsFromMeta {
     }
 
     $prefabFiles = @(Get-ChildItem -Path $PrefabsRootPath -Recurse -File -Filter "*.et" | Sort-Object FullName)
+    if ($null -ne $FactionFilter -and $FactionFilter.Count -gt 0) {
+        $prefabFiles = @($prefabFiles | Where-Object {
+            $fullName = $_.FullName
+            @($FactionFilter | Where-Object { $fullName -like "*$_*" }).Count -gt 0
+        })
+    }
     foreach ($prefabFile in $prefabFiles) {
         $result.Total++
 
@@ -260,8 +268,12 @@ if ($DryRun) {
 
 Write-Host "Using meta suffix: $NameSuffix"
 
-$characterResult = Update-PrefabsFromMeta -PrefabsRootPath $charactersPrefabsPath -MetaRootPath $charactersMetaPath -Kind "Characters" -Suffix $NameSuffix -DryRun:$DryRun
-$groupResult = Update-PrefabsFromMeta -PrefabsRootPath $groupsPrefabsPath -MetaRootPath $groupsMetaPath -Kind "Groups" -Suffix $NameSuffix -DryRun:$DryRun
+if ($null -ne $Factions -and $Factions.Count -gt 0) {
+    Write-Host "Faction filter: $($Factions -join ', ')"
+}
+
+$characterResult = Update-PrefabsFromMeta -PrefabsRootPath $charactersPrefabsPath -MetaRootPath $charactersMetaPath -Kind "Characters" -Suffix $NameSuffix -FactionFilter $Factions -DryRun:$DryRun
+$groupResult = Update-PrefabsFromMeta -PrefabsRootPath $groupsPrefabsPath -MetaRootPath $groupsMetaPath -Kind "Groups" -Suffix $NameSuffix -FactionFilter $Factions -DryRun:$DryRun
 
 $allResults = @($characterResult, $groupResult)
 

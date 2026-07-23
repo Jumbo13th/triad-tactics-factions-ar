@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{D0A151B90F00DE6C}Prefabs/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_UAV"
+    IconSetName "EditableEntity_Character_Leader_Squad"
+    m_Image "{DDBF6E07EB86B040}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_UAV_BCR.edds"
+   }
+  }
+ }
+}

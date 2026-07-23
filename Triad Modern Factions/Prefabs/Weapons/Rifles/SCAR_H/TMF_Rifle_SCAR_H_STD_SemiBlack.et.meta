@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{79DEDCC2778A1B58}Prefabs/Weapons/Rifles/SCAR_H/TMF_Rifle_SCAR_H_STD_SemiBlack.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -35,6 +35,7 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
      m_Icons INFANTRY
      m_Amplifier SQUAD
     }
+    m_Image "{E5FA929947D55EFE}UI/Textures/EditorPreviews/Groups/INDFOR/TMF_Group_NAPA_RifleSquad_BCR.edds"
    }
   }
   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {

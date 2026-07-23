@@ -4,6 +4,7 @@ SCR_ChimeraCharacter : "{5E492CCC1B31646E}Prefabs/Characters/Factions/INDFOR/NAP
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#TMF_Characters_PL"
+    m_Image "{B42EBD4510F69142}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_PL_BCR.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

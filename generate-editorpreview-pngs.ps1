@@ -11,6 +11,7 @@ param(
     [int]$Height = 300,
     [ValidateRange(0, 255)]
     [int]$Gray = 128,
+    [string[]]$Factions = @(),
     [switch]$CleanOutput
 )
 
@@ -134,7 +135,8 @@ function Generate-PreviewFiles {
         [Parameter(Mandatory = $true)]
         [byte[]]$SourcePngBytes,
         [Parameter(Mandatory = $true)]
-        [string]$Suffix
+        [string]$Suffix,
+        [string[]]$FactionFilter = @()
     )
 
     if (-not (Test-Path -Path $PrefabsRootPath -PathType Container)) {
@@ -143,6 +145,12 @@ function Generate-PreviewFiles {
     }
 
     $prefabFiles = @(Get-ChildItem -Path $PrefabsRootPath -Recurse -File -Filter "*.et" | Sort-Object FullName)
+    if ($null -ne $FactionFilter -and $FactionFilter.Count -gt 0) {
+        $prefabFiles = @($prefabFiles | Where-Object {
+            $fullName = $_.FullName
+            @($FactionFilter | Where-Object { $fullName -like "*$_*" }).Count -gt 0
+        })
+    }
     if ($prefabFiles.Count -eq 0) {
         return 0
     }
@@ -207,8 +215,12 @@ if (-not (Test-Path -Path $outputRootPath -PathType Container)) {
     New-Item -ItemType Directory -Path $outputRootPath -Force | Out-Null
 }
 
-$charactersGenerated = Generate-PreviewFiles -PrefabsRootPath $charactersPrefabsPath -OutputRootPath $charactersOutputPath -SourcePngBytes $sourcePngBytes -Suffix $NameSuffix
-$groupsGenerated = Generate-PreviewFiles -PrefabsRootPath $groupsPrefabsPath -OutputRootPath $groupsOutputPath -SourcePngBytes $sourcePngBytes -Suffix $NameSuffix
+if ($null -ne $Factions -and $Factions.Count -gt 0) {
+    Write-Host "Faction filter: $($Factions -join ', ')"
+}
+
+$charactersGenerated = Generate-PreviewFiles -PrefabsRootPath $charactersPrefabsPath -OutputRootPath $charactersOutputPath -SourcePngBytes $sourcePngBytes -Suffix $NameSuffix -FactionFilter $Factions
+$groupsGenerated = Generate-PreviewFiles -PrefabsRootPath $groupsPrefabsPath -OutputRootPath $groupsOutputPath -SourcePngBytes $sourcePngBytes -Suffix $NameSuffix -FactionFilter $Factions
 
 Write-Host "Generated $charactersGenerated character preview image(s)."
 Write-Host "Generated $groupsGenerated group preview image(s)."

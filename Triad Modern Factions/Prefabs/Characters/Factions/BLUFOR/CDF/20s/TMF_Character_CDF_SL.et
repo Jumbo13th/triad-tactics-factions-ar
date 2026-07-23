@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{D0A151B90F00DE6C}Prefabs/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{E4E4CA52CCB2D22C}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22_base.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_SL"
+    IconSetName "EditableEntity_Character_Leader_Squad"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_CDF ROLE_LEADER
+    }
+    m_Image "{ADBF3C382F5B9C74}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_SL_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3C30367D46B42FC5}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_t1_22_3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{7BA7FF3E9F68960E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69ED3917B7A97B84}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
+    }
+    ItemsInitConfigurationItem "{69ED39152C3D9DC3}" {
+     PrefabsToSpawn {
+      "{DBD82F5613F7C96C}Prefabs/Items/Equipment/Radios/TMF_Radio_ANPRC152A_CDF_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

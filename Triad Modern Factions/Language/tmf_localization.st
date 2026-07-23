@@ -29,6 +29,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69EF39C3DC18276D}" {
+   Id "TMF_Characters_Marksman"
+   Target_en_us "Marksman"
+   Modified 1777286578
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69EB3915B81F42C9}" {
    Id "TMF_Characters_MG"
    Target_en_us "Machine Gunner"
@@ -82,6 +89,20 @@ StringTable {
    Id "TMF_Characters_SR"
    Target_en_us "Senior Rifleman"
    Modified 1777027239
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69EF39C44BE10D47}" {
+   Id "TMF_Characters_UAV"
+   Target_en_us "Drone Operator"
+   Modified 1777288431
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69ED39138B8843C2}" {
+   Id "TMF_Factions_CDF"
+   Target_en_us "CDF"
+   Modified 1777154962
    Author "siwi1"
    LastChanged "siwi1"
   }

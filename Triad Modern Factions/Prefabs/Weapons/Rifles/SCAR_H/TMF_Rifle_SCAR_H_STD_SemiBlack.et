@@ -1,0 +1,40 @@
+GenericEntity : "{BCE4FF8C91B75853}Prefabs/Weapons/Rifles/SCAR_H/Rifle_SCAR_H_STD.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{69EF39C1BAD781E4}" {
+     SourceMaterial "SCARH_Lower"
+     AssignedMaterial "{6FFE7EE62494F37B}Assets/Weapons/Rifles/SCAR_H/Data/SCARH_Lower.emat"
+    }
+    MaterialAssignClass "{69EF39C1BAD78131}" {
+     SourceMaterial "SCARH_receiver"
+     AssignedMaterial "{21E19BF03739B959}Assets/Weapons/Rifles/SCAR_H/Data/SCARH_receiver_Black.emat"
+    }
+    MaterialAssignClass "{69EF39C1BAD78130}" {
+     SourceMaterial "pistol_grip_A2"
+     AssignedMaterial "{6CD3B5B7F5742C4D}Assets/Weapons/Rifles/SCAR_H/Data/pistol_grip_A2_Black.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{64E49ECD40B75A80}" {
+   Slots {
+    EntitySlotInfo Buttstock {
+     Prefab "{8AB018818E3B3FF0}Prefabs/Weapons/Attachments/Buttstocks/FN_SCAR_Platform/Buttstock_SCAR_STD_Black.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64615D5DD76DAECE}" {
+     AttachmentSlot InventoryStorageSlot optic_ris {
+      Prefab "{80894C2BD584AF05}Prefabs/Weapons/Attachments/Optics/Optic_ACOG_TA01NSN_4x32/Optic_ACOG_TA01NSN_4x32.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
+    }
+   }
+  }
+ }
+}

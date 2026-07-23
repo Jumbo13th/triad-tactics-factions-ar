@@ -1,0 +1,44 @@
+GameEntity : "{FF949A53EB551F00}Prefabs/Characters/Vests/Vest_AA_A18/variants/Vest_A18_HSGI_MC_1.et" {
+ ID "61AA6069A5E48A28"
+ components {
+  RHS_ClothNodeStorageComponent "{61AA6069A5E48A80}" {
+   Attributes SCR_ItemAttributeCollection "{61AA6069A5E48A8F}" {
+    ItemDisplayName UIInfo "{61AA6069A5E48A8A}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_AA_A18_Base_Name [1] - #RHS-Color_COY"
+     Description "#RHS-Vest_AA_A18_Pouch_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{61AA6069A5E48AF6}" {
+   Slots {
+    LoadoutSlotInfo radio {
+     Offset -0.1999 0.1153 0.1087
+     Angles -1.2828 18.7972 -1.981
+     Prefab "{95E5CC94D3DE456A}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Coy.et"
+    }
+    LoadoutSlotInfo holster {
+     Prefab ""
+    }
+    LoadoutSlotInfo arsbelt {
+     Prefab ""
+    }
+    LoadoutSlotInfo arsbeltpistol1 {
+     Prefab ""
+    }
+    LoadoutSlotInfo slot {
+     Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
+    }
+    LoadoutSlotInfo slot2 {
+     Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
+    }
+    LoadoutSlotInfo slot3 {
+     Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
+    }
+    LoadoutSlotInfo slot4 {
+     Prefab "{4FCFA8454D766E94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_COY.et"
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+}

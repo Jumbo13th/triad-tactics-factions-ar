@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{3E1E42F6CB60E8D2}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/USMC_03/TMF_Character_USMC_2003_BaseLoadout_BCR.edds"
+ Name "{2BC7F6D4A2FC71BC}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_AAT_BCR.edds"
  Configurations {
   PNGResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   PNGResourceClass PS5 : "{531A0D167B1ABD97}Configs/System/ResourceTypes/PS5/TextureColorMap.conf" {
   }
   PNGResourceClass HEADLESS : "{BEAF5CD0C438676E}Configs/System/ResourceTypes/HEADLESS/TextureColorMap.conf" {
+  }
+  PNGResourceClass Xbox : PC {
   }
  }
 }

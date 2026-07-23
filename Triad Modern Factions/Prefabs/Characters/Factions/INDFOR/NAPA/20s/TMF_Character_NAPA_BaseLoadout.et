@@ -27,6 +27,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_RIFLEMAN
     }
+    m_Image "{433BC2568BCE2C63}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_BaseLoadout_BCR.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

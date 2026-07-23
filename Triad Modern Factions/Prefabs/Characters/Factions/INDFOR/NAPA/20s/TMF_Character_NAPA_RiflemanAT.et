@@ -7,6 +7,7 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
     m_aAuthoredLabels + {
      ROLE_ANTITANK
     }
+    m_Image "{276E33F31C395A39}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_RiflemanAT_BCR.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {

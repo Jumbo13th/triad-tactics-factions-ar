@@ -8,6 +8,7 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_MACHINEGUNNER
     }
+    m_Image "{E7436E26FDAE6B95}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_MG_BCR.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

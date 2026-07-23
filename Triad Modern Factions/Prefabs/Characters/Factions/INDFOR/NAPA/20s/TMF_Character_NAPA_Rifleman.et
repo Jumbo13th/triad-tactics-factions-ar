@@ -4,6 +4,7 @@ SCR_ChimeraCharacter : "{118101549042D13C}Prefabs/Characters/Factions/INDFOR/NAP
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#TMF_Characters_Rifleman"
+    m_Image "{76D96C8C2611A4D1}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_Rifleman_BCR.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {

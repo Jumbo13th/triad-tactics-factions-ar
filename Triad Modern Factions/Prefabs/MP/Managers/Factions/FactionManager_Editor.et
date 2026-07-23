@@ -3,5 +3,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
  Factions {
   SCR_Faction "{69E9463F05C24419}" : "{8B88A2F5CEEC92E4}Configs/Factions/NAPA.conf" {
   }
+  SCR_Faction "{69ED4AD691711FDC}" : "{B15B39077B0E1055}Configs/Factions/CDF.conf" {
+  }
  }
 }

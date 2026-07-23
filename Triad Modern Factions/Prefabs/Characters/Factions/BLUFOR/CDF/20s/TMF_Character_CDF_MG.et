@@ -1,0 +1,76 @@
+SCR_ChimeraCharacter : "{D0A151B90F00DE6C}Prefabs/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_MG"
+    IconSetName "EditableEntity_Character_Machinegunner"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_CDF ROLE_MACHINEGUNNER
+    }
+    m_Image "{D4F6C8F834ED008C}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_MG_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{F8C4AA411FA9F3EA}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_RGR_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69ED39152C3D9DC3}" {
+     TargetStorage "Pants/crye_pants_marpat.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69ED4AD5C678F0F3}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/m2401/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{D6D327EED460CFF3}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M995_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69ED4AD56F3E55D5}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/HSGI/Pouch_Highspeed_Bleeder_MC.et"
+    }
+    ItemsInitConfigurationItem "{69ED4AD565A26DE9}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/M2402/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{D6D327EED460CFF3}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M995_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69ED4AD5764E409D}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/Pouch1/Pouch_AVS_front_molle_RGR.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69ED4AD570822FDD}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/Pouch1/Pouch_AVS_front_molle_RGR.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{69ED4AD5400A1A6B}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+     PrefabsToSpawn {
+      "{DBD82F5613F7C96D}Prefabs/Items/Equipment/Radios/TMF_Radio_ANPRC152A_CDF.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69ED4AD53B416961}" {
+     TargetStorage "Back/FILBE_Backpack_Heavy.et"
+     PrefabsToSpawn + {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{D6D327EED460CFF3}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M995_4AP_1Tracer.et" "{D6D327EED460CFF3}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M995_4AP_1Tracer.et" "{D6D327EED460CFF3}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M995_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69ED4AD51900596D}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_RGR_MG.et/Pouch1/Pouch_AVS_front_molle_RGR.et"
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{D0A151B90F00DE6C}Prefabs/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AT"
+    IconSetName "EditableEntity_Character_Anti_Tank"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_CDF ROLE_ANTITANK
+    }
+    m_Image "{C0D6FBFEE497B063}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_AT_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{25916274DC43A1F8}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_EOTECH_22.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{907F51E4DFF366FF}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{BC13AD4C3E6173AF}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsG2_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69ED3917B7A92FE7}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG2_MC.et"
+    }
+    ItemsInitConfigurationItem "{69EF2A4A23319552}" {
+     TargetStorage "Back/FILBE_Backpack_Heavy.et"
+     PrefabsToSpawn {
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
+     }
+    }
+   }
+  }
+ }
+}

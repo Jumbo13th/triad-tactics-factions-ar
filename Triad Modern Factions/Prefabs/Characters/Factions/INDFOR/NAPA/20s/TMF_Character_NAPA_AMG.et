@@ -19,6 +19,7 @@ SCR_ChimeraCharacter : "{53E2512827E0DC3A}Prefabs/Characters/Factions/INDFOR/NAP
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_AMMOBEARER
     }
+    m_Image "{E717B0277AF10DD7}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_AMG_BCR.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

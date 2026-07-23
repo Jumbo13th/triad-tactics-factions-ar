@@ -7,6 +7,10 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
     }
     SCR_PlaceableEntitiesRegistry "{69EB58A11268C570}" : "{23ED5F2AFF4B7B44}Configs/Editor/PlaceableEntities/Groups_NAPA.conf" {
     }
+    SCR_PlaceableEntitiesRegistry "{69ED4AD66407BF28}" : "{5447380032EE04F9}Configs/Editor/PlaceableEntities/Characters_CDF.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{69EF48AAC769948D}" : "{C91178BD3B787CCA}Configs/Editor/PlaceableEntities/Groups_CDF.conf" {
+    }
    }
   }
  }
