@@ -8,5 +8,14 @@ SCR_ChimeraCharacter : "{D0A151B90F00DE6C}Prefabs/Characters/Factions/BLUFOR/CDF
     m_Image "{DDBF6E07EB86B040}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_UAV_BCR.edds"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69ED39152C3D9DC3}" {
+     PrefabsToSpawn {
+      "{DBD82F5613F7C96C}Prefabs/Items/Equipment/Radios/TMF_Radio_ANPRC152A_CDF_SL.et"
+     }
+    }
+   }
+  }
  }
 }

@@ -14,12 +14,12 @@ SCR_ChimeraCharacter : "{7E50A72369386BED}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#TMF_Characters_UAV"
+    Name "#TMF_Characters_AAT"
     IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_Image "{2BC7F6D4A2FC71BC}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_AAT_BCR.edds"
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_CDF ROLE_AMMOBEARER
     }
-    m_Image "{2BC7F6D4A2FC71BC}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_AAT_BCR.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{24F6548096C546D0}Prefabs/Characters/Factions/BLUFOR/CDF
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#TMF_Characters_AAT"
+    Name "#TMF_Characters_RiflemanAT"
     m_Image "{71CDF33AF82640BE}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_RiflemanAT_BCR.edds"
    }
   }

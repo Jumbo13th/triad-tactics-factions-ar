@@ -3,17 +3,27 @@ SCR_ChimeraCharacter : "{CB703FFD2235D7A2}Prefabs/Characters/Factions/BLUFOR/CDF
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#TMF_Characters_PL"
+    Name "#TMF_Pilot"
+    IconSetName "EditableEntity_Character_Helicopter_Pilot"
     m_Image "{879B1B9BD9B5FA5B}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_PL_BCR.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F88F9470024CA771}Prefabs/Weapons/Rifles/AKS74UN/TMF_Rifle_AKS74UN_b18_b11u_b19n_agr47_glcore_22.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{483A80042765275F}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01.et"
+    }
     LoadoutSlotInfo Jacket {
      Prefab "{BCC6A98B87FC466A}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MARPAT.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
     }
    }
   }

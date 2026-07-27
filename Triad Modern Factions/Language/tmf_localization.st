@@ -22,6 +22,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69F74C144D559B23}" {
+   Id "TMF_Characters_Crew"
+   Target_en_us "Crewman"
+   Modified 1777816017
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69EB391A4487A692}" {
    Id "TMF_Characters_DPL"
    Target_en_us "Deputy Platoon Leader"
