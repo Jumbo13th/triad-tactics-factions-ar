@@ -23,7 +23,7 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{8909A91CFF369BB3}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic.et"
+   WeaponTemplate "{8909A91CFF369BB4}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -54,9 +54,6 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
     }
     ItemsInitConfigurationItem "{69E9463B98D8984B}" {
      TargetStorage "Pants/Goblin_pants_GRN.et"
-     PrefabsToSpawn {
-      "{F3D19E6D77A6BC3A}Prefabs/Items/Equipment/Radios/TMF_Radio_R187P1_NAPA_SL.et"
-     }
     }
     ItemsInitConfigurationItem "{69E94638C0D05844}" {
      TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/sasarma1/Pouch_ArsArma_magouch_morphed_OD.et"

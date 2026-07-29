@@ -7,6 +7,7 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#TMF_Groups_Snipers"
+    m_Image "{D15C16737E2AE73E}UI/Textures/EditorPreviews/Groups/INDFOR/TMF_Group_NAPA_Snipers_BCR.edds"
     m_sFaction "NAPA"
     m_aAuthoredLabels {
      ENTITYTYPE_GROUP FACTION_NAPA
@@ -37,7 +38,6 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
      m_Icons 0
      m_Amplifier NONE
     }
-    m_Image "{D15C16737E2AE73E}UI/Textures/EditorPreviews/Groups/INDFOR/TMF_Group_NAPA_Snipers_BCR.edds"
    }
   }
   SCR_PreviewEntityComponent "{69EB58A14E14B02A}" {
@@ -98,6 +98,6 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  }
  m_faction "NAPA"
  m_aUnitPrefabSlots {
-  "{A9B4E4E8730C3269}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_Sniper.et" "{389C3E4B0DAA849E}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_Spotter.et"
+  "{5533ADA337AC9B17}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_SpotterSL.et" "{A9B4E4E8730C3269}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_Sniper.et" "{389C3E4B0DAA849E}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_Spotter.et" "{A9B4E4E8730C3269}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_Sniper.et" "{389C3E4B0DAA849E}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_Spotter.et" "{E013357D7CA12758}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_SpotterAT.et"
  }
 }

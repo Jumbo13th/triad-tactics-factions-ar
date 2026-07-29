@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{389C3E4B0DAA849E}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_Spotter.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_SpotterSL"
+    IconSetName "EditableEntity_Character_Leader_Squad"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_LEADER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3C30367D46B42FC5}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_t1_22_3.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{50CAAEEDC59F23C6}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E9463B98D8984B}" {
+     PrefabsToSpawn {
+      "{F3D19E6D77A6BC3A}Prefabs/Items/Equipment/Radios/TMF_Radio_R187P1_NAPA_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

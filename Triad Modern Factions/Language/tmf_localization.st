@@ -71,6 +71,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{69FB29D6AD179241}" {
+   Id "TMF_Characters_SeniorSpotter"
+   Target_en_us "Senior Spotter"
+   Modified 1778068975
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69EB391C167B7B6F}" {
    Id "TMF_Characters_SL"
    Target_en_us "Squad Leader"
@@ -89,6 +96,20 @@ StringTable {
    Id "TMF_Characters_Spotter"
    Target_en_us "Spotter"
    Modified 1777032129
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69FB29D6DED4C950}" {
+   Id "TMF_Characters_SpotterAT"
+   Target_en_us "Spotter AT"
+   Modified 1778068934
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{69FB29D68A04A545}" {
+   Id "TMF_Characters_SpotterSL"
+   Target_en_us "Sniper Group Leader"
+   Modified 1778069803
    Author "siwi1"
    LastChanged "siwi1"
   }
