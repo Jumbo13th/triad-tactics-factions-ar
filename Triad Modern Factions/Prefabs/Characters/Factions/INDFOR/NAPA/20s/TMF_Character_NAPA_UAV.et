@@ -10,7 +10,6 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
    InitialInventoryItems {
     ItemsInitConfigurationItem "{69E9463E3D7C2EE3}" {
      PrefabsToSpawn {
-      "{FDA92D590B9C633B}Prefabs/Drones/DJIBase/DJIBase.et" "{FDA92D590B9C633B}Prefabs/Drones/DJIBase/DJIBase.et" "{8951045BFE8BC8E4}Prefabs/Characters/HeadGear/FPV_Goggles.et" "{E2434ED1318D8476}Prefabs/Characters/Items/DroneController.et"
      }
     }
    }
