@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F1F3A7925A82EC0F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_DPL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
