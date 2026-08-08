@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{CE19291C1CE3D6BE}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_TL.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_Grenadier"
+   }
+  }
+ }
+}

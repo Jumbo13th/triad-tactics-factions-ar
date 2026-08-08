@@ -106,6 +106,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6A763E7C2DB47A9C}" {
+   Id "TTF-Characters_Grenadier"
+   Target_en_us "Grenadier"
+   Modified 1786135524
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{6928F9EDA6A549F3}" {
    Id "TTF-Characters_Grenadier_Marines"
    Target_en_us "Grenadier (Marine)"
@@ -274,6 +281,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6A763E7C0B92553A}" {
+   Id "TTF-Characters_TankCommander"
+   Target_en_us "Tank Commander"
+   Modified 1786135524
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691B1390B21F9138}" {
    Id "TTF-Characters_TL"
    Target_en_us "Team Leader"
@@ -404,6 +418,13 @@ StringTable {
    Id "TTF-Groups_RifleSquad_V2"
    Target_en_us "Rifle Squad (Variant 1)"
    Modified 1763374252
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6A763E7C1CA3686B}" {
+   Id "TTF-Groups_Tank_Crew"
+   Target_en_us "Tank Crew"
+   Modified 1786135524
    Author "siwi1"
    LastChanged "siwi1"
   }

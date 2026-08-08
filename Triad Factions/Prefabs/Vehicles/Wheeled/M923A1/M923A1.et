@@ -1,0 +1,33 @@
+Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6A763E7D0C4A1B25}" {
+     SlotTemplate InventoryStorageSlot bandages {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6A763E7D1D5B2C36}" {
+     SlotTemplate InventoryStorageSlot tourniquet {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6A763E7D2E6C3D47}" {
+     SlotTemplate InventoryStorageSlot morphine {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6A763E7D3F7D4E58}" {
+     SlotTemplate InventoryStorageSlot Radios {
+      Prefab "{02C47AA973F8D72D}Prefabs/Items/Equipment/Radios/TT_Radio_ANPRC77.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+ }
+}
