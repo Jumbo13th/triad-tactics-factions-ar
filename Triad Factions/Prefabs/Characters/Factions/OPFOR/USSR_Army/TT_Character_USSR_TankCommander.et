@@ -15,10 +15,15 @@ SCR_ChimeraCharacter : "{B6601A7F621593E3}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetPurpose 1
+     PrefabsToSpawn + {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
     ItemsInitConfigurationItem "{691ADB9E6EB582B0}" {
      TargetStorage "Vest/Vest_SovietHarness_rifleman.et"
      PrefabsToSpawn {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
    }

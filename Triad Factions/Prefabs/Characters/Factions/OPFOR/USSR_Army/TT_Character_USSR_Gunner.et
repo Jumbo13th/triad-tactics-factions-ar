@@ -6,5 +6,14 @@ SCR_ChimeraCharacter : "{B6601A7F621593E3}Prefabs/Characters/Factions/OPFOR/USSR
     Name "#TTF-Characters_Gunner"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
  }
 }
