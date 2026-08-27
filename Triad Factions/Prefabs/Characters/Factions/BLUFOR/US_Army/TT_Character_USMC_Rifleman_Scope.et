@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{3DCAF44F7FDD8400}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_USMC_Rifleman.et" {
+ ID "52092032B0E62200"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B1482FB64E3D2D45}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_4x20.et"
+  }
+ }
+}

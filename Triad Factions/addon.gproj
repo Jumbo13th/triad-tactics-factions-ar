@@ -3,7 +3,7 @@ GameProject {
  GUID "691A7CDFD9F82352"
  TITLE "Triad Factions"
  Dependencies {
-  "58D0FB3206B6F859" "5D550926D43F1409" "6190F1B505C08562" "5AE50EC5B8D6F4AE" "6912F9D48E9C8422"
+  "58D0FB3206B6F859" "6190F1B505C08562" "5AE50EC5B8D6F4AE" "6912F9D48E9C8422" "DEADC0DE00000001" "DEADC0DE00000007"
  }
  Configurations {
   GameProjectConfig PC {
@@ -78,6 +78,9 @@ GameProject {
   GameProjectConfig PS5 {
   }
   GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
+   PlatformHardware XBOX_ONE
   }
  }
 }

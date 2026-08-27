@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+ Name "{BC4076152DBE4806}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_Crewman_Tank.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

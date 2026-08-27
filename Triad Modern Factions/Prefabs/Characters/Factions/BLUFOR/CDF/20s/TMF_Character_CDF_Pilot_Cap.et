@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{1CA684867BEAC81F}Prefabs/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_Pilot.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B8297DA9CC5BFDAA}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_WD.et"
+    }
+   }
+  }
+ }
+}

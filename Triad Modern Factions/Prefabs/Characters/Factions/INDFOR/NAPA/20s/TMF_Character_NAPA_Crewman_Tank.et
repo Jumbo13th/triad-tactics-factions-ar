@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{C0AD79392F989FBC}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_Crewman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E9463B98D8984B}" {
+     PrefabsToSpawn {
+      "{F3D19E6D77A6BC3A}Prefabs/Items/Equipment/Radios/TMF_Radio_R187P1_NAPA_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

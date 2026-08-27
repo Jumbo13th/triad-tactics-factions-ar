@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{53E2512827E0DC3A}Prefabs/Characters/Factions/INDFOR/NAPA/TMF_Character_NAPA_RiflemanAT.et" {
+SCR_ChimeraCharacter : "{53E2512827E0DC3A}Prefabs/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_RiflemanAT.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -16,14 +16,14 @@ SCR_ChimeraCharacter : "{53E2512827E0DC3A}Prefabs/Characters/Factions/INDFOR/NAP
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#TMF_Characters_AMG"
     IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_Image "{E717B0277AF10DD7}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_AMG_BCR.edds"
     m_aAuthoredLabels {
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_NAPA ROLE_AMMOBEARER
     }
-    m_Image "{E717B0277AF10DD7}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/NAPA/20s/TMF_Character_NAPA_AMG_BCR.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{D9AC7A844A51B8AE}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_t1_22_2.et"
+   WeaponTemplate "{D9AC7A844A51B8AE}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_t1_22_2.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
