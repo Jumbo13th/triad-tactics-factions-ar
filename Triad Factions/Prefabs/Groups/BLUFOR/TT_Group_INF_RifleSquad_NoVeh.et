@@ -1,0 +1,6 @@
+SCR_AIGroup : "{4A1D7E3C90B5F268}Prefabs/Groups/BLUFOR/TT_Group_INF_RifleSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{C9DED34D7A656C7D}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_SL.et" "{CE19291C1CE3D6BE}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_TL.et" "{A456225248E1CE6E}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_AR.et" "{E65D94D0B577ED9D}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_AAR.et" "{6A763E7A96D1E37F}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_Grenadier.et" "{5799605B3F0AC522}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_Rifleman_Scoped.et" "{D6C3A56BBE1B96F4}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_RiflemanAT.et" "{D6C3A56BBE1B96F4}Prefabs/Characters/Factions/BLUFOR/US_Army/TT_Character_INF_RiflemanAT.et"
+ }
+}

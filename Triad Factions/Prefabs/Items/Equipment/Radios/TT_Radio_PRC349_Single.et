@@ -7,7 +7,7 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    Transceivers {
     RadioTransceiver "{6928F9F071DDE8B3}" {
      ChannelFrequency 32000
-     "Transmitting Range" 800
+     "Transmitting Range" 4000
      "Min tunable frequency" 32000
      "Max tunable frequency" 68000
     }
