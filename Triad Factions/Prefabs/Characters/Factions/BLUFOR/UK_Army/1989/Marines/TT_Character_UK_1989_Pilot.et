@@ -51,7 +51,7 @@ SCR_ChimeraCharacter : "{91D2677D8571151D}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
      TargetStorage "Jacket/Suit_Pilot_UK_01.et"
      PrefabsToSpawn {
-      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{77A25EFFE26D8A7E}Prefabs/Weapons/Grenades/Smoke_No83_Green.et" "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et"
+      "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et"
      }
     }
     ItemsInitConfigurationItem "{65D51D8B91CE547A}" {

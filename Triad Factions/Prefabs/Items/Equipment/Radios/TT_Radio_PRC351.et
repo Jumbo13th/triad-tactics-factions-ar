@@ -5,8 +5,10 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
    "Encryption key" "royalCrown"
    "Turned on" 1
    Transceivers {
-    RadioTransceiver "{5EA4A89F0D06E18F}" {
+    RelayTransceiver "{5EA4A89F0D06E18F}" {
      "Transmitting Range" 6000
+     "Min tunable frequency" 32000
+     "Max tunable frequency" 68000
     }
    }
   }
