@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{18C2FF67A3CBE7F6}Prefabs/Characters/Factions/BLUFOR/CDF/20s/TMF_Character_CDF_RiflemanAT.et" {
+ ID "520EC961A090BE1E"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EFE1C0AA68D414DB}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_b30_b31s_PDC_AGR47_GLCore_22_silencer.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CD03EDE75DFF6D32}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_cwd_p.et"
+    }
+   }
+  }
+ }
+}

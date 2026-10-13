@@ -1,0 +1,18 @@
+GenericEntity : "{176B7180CED35D19}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_b30_b31s_PDC_AGR47_GLCore_22.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{CF17A3DCF383191D}Prefabs/Weapons/Attachments/Muzzle/Supressor_Zenitco_Ten1/Supressor_Zenitco_Ten1.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{BA204AEBC0962385}Prefabs/Weapons/Rifles/AKS74UN/TMF_Rifle_AKS74UN_b18_b11u_b19n_agr47_glcore_22_silencer.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
