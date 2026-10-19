@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{6A3677BDFBE9DAD5}Prefabs/Characters/Factions/INDFOR/FIA
    WeaponTemplate "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+   WeaponTemplate "{37EFCC1AA64720BA}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PG7VL.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -27,7 +27,13 @@ SCR_ChimeraCharacter : "{6A3677BDFBE9DAD5}Prefabs/Characters/Factions/INDFOR/FIA
     ItemsInitConfigurationItem "{69367E43EFAF2EE1}" {
      TargetStorage "Back/Backpack_RPG_Gunner.et"
      PrefabsToSpawn {
-      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et" "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et"
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AD6935C6B6C8138}" {
+     TargetStorage "Jacket/Jacket_M70.et"
+     PrefabsToSpawn {
+      "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et" "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et"
      }
     }
    }

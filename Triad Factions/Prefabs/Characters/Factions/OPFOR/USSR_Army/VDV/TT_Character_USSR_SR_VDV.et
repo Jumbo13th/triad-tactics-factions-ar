@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{85BC163A8D06EF72}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_Rifleman_VDV.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_SR_VDV"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{605E7295C5B554FA}Prefabs/Weapons/Rifles/AKS74/Rifle_AKS74N_1P29.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D4028ED16DEE99EE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camonet.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{241F6B134D588783}Prefabs/Characters/Uniforms/Jacket_M88_TTsKO_VDV.et"
+    }
+   }
+  }
+ }
+}

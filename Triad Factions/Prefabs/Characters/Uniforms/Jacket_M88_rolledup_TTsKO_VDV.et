@@ -1,0 +1,12 @@
+GameEntity : "{F6C7806DBBF26C50}Prefabs/Characters/Uniforms/Jacket_M88_rolledup_TTsKO.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{F928D90B6E4B9166}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_belt_dummy.et"
+    }
+   }
+  }
+ }
+}

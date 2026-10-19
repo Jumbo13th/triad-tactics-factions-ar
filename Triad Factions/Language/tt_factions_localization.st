@@ -22,6 +22,20 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6AD68C8BB4FE3C37}" {
+   Id "TTF-Characters_AAT_VDV"
+   Target_en_us "Assistant Anti-Tank (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD69049358AB53A}" {
+   Id "TTF-Characters_AAT_VDV_Para"
+   Target_en_us "Assistant Anti-Tank (VDV Para)"
+   Modified 1792446537
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{693686CC43361F35}" {
    Id "TTF-Characters_AMG"
    Target_en_us "Assistant Machine Gunner"
@@ -57,6 +71,20 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6AD68C8BA933FC5A}" {
+   Id "TTF-Characters_AR_VDV"
+   Target_en_us "Automatic Rifleman (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD6904964D8208D}" {
+   Id "TTF-Characters_AR_VDV_Para"
+   Target_en_us "Automatic Rifleman (VDV Para)"
+   Modified 1792446537
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691ADB9145E1734A}" {
    Id "TTF-Characters_AT"
    Target_en_us "Rifleman Anti-Tank"
@@ -68,6 +96,20 @@ StringTable {
    Id "TTF-Characters_AT_Naval"
    Target_en_us "Rifleman Anti-Tank (Naval)"
    Modified 1764053412
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD68C8BE4BAED9C}" {
+   Id "TTF-Characters_AT_VDV"
+   Target_en_us "Rifleman Anti-Tank (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD69049F8594EE6}" {
+   Id "TTF-Characters_AT_VDV_Para"
+   Target_en_us "Rifleman Anti-Tank (VDV Para)"
+   Modified 1792446537
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -103,6 +145,20 @@ StringTable {
    Id "TTF-Characters_DPL_Naval"
    Target_en_us "Deputy Platoon Leader (Naval)"
    Modified 1764053518
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD68C8B186EF098}" {
+   Id "TTF-Characters_DPL_VDV"
+   Target_en_us "Deputy Platoon Leader (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD6904990754A9C}" {
+   Id "TTF-Characters_DPL_VDV_Para"
+   Target_en_us "Deputy Platoon Leader (VDV Para)"
+   Modified 1792446537
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -162,10 +218,52 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6AD68C8B2B9E5075}" {
+   Id "TTF-Characters_PL_VDV"
+   Target_en_us "Platoon Leader (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD69049E3BA62E8}" {
+   Id "TTF-Characters_PL_VDV_Para"
+   Target_en_us "Platoon Leader (VDV Para)"
+   Modified 1792446537
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69254AB48021823A}" {
    Id "TTF-Characters_R_Naval"
    Target_en_us "Rifleman (Naval)"
    Modified 1764053929
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD68C8B6E617BA5}" {
+   Id "TTF-Characters_R_VDV"
+   Target_en_us "Rifleman (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD69049D71CF693}" {
+   Id "TTF-Characters_R_VDV_Para"
+   Target_en_us "Rifleman (VDV Para)"
+   Modified 1792446537
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD68C8BBC4E4723}" {
+   Id "TTF-Characters_RAT_VDV"
+   Target_en_us "Rifleman RPG-22 (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD6904967592422}" {
+   Id "TTF-Characters_RAT_VDV_Para"
+   Target_en_us "Rifleman RPG-22 (VDV Para)"
+   Modified 1792446537
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -253,6 +351,20 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6AD68C8B53DD598B}" {
+   Id "TTF-Characters_SL_VDV"
+   Target_en_us "Squad Leader (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD690498CA479EC}" {
+   Id "TTF-Characters_SL_VDV_Para"
+   Target_en_us "Squad Leader (VDV Para)"
+   Modified 1792446537
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691ADB93E2A569A0}" {
    Id "TTF-Characters_Sniper"
    Target_en_us "Sniper"
@@ -278,6 +390,20 @@ StringTable {
    Id "TTF-Characters_SR_Naval"
    Target_en_us "Senior Rifleman (Naval)"
    Modified 1764054183
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD68C8B136E6417}" {
+   Id "TTF-Characters_SR_VDV"
+   Target_en_us "Senior Rifleman (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD6904981F64C69}" {
+   Id "TTF-Characters_SR_VDV_Para"
+   Target_en_us "Senior Rifleman (VDV Para)"
+   Modified 1792446537
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -372,6 +498,20 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6AD68C8B999ABDF6}" {
+   Id "TTF-Groups_Platoon_HQ_VDV"
+   Target_en_us "Platoon HQ (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD690496C98F70F}" {
+   Id "TTF-Groups_Platoon_HQ_VDV_Para"
+   Target_en_us "Platoon HQ (VDV Para)"
+   Modified 1792446537
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{691A8804E5B5E52E}" {
    Id "TTF-Groups_Recon_BRDM"
    Target_en_us "Recon Squad (BRDM-2)"
@@ -418,6 +558,20 @@ StringTable {
    Id "TTF-Groups_RifleSquad_V2"
    Target_en_us "Rifle Squad (Variant 1)"
    Modified 1763374252
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD68C8B17B7C1AB}" {
+   Id "TTF-Groups_RifleSquad_VDV"
+   Target_en_us "Rifle Squad (VDV)"
+   Modified 1792445579
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6AD69049CE25F37D}" {
+   Id "TTF-Groups_RifleSquad_VDV_Para"
+   Target_en_us "Rifle Squad (VDV Para)"
+   Modified 1792446537
    Author "siwi1"
    LastChanged "siwi1"
   }

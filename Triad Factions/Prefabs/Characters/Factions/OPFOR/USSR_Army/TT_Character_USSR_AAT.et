@@ -35,7 +35,13 @@ SCR_ChimeraCharacter : "{68C62838122D31DD}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{691ADB9E6EB582B0}" {
      TargetStorage "Back/Backpack_RPG_Assistant.et"
      PrefabsToSpawn + {
-      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AD69229D04E0416}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
      }
     }
    }

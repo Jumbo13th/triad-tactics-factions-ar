@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{AA90069AAA4AB9EA}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_AAT_VDV.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_AAT_VDV_Para"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{691ADB9E6EB582B0}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

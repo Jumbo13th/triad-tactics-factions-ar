@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6AE557A3C68DC754}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_AR_VDV.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

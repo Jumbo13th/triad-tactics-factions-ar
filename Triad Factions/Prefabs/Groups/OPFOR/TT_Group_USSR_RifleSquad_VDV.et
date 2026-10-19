@@ -1,0 +1,13 @@
+SCR_AIGroup : "{AECDDA030588F251}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Groups_RifleSquad_VDV"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{6DA53ED913EEAF78}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_SL_VDV.et" "{A3ED08C05DD13E25}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_SR_VDV.et" "{6AE557A3C68DC754}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_AR_VDV.et" "{E584425516BDC81D}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_AT_VDV.et" "{AA90069AAA4AB9EA}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_AAT_VDV.et" "{85BC163A8D06EF72}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_Rifleman_VDV.et" "{A2453722B2AAD974}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_RiflemanAT_VDV.et"
+ }
+}

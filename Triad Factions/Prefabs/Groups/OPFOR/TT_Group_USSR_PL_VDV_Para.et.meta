@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{73C6F65E7888A2C4}Prefabs/Groups/OPFOR/TT_Group_USSR_PL_VDV_Para.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

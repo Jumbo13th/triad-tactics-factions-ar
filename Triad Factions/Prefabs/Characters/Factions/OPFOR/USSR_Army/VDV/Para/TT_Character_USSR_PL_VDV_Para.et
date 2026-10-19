@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{5039A637FEFF717E}Prefabs/Characters/Factions/OPFOR/USSR_Army/VDV/TT_Character_USSR_PL_VDV.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TTF-Characters_PL_VDV_Para"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

@@ -21,7 +21,7 @@ SCR_ChimeraCharacter : "{2DB452B3EC386B92}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7.et"
+   WeaponTemplate "{A64B7DF2668C5A05}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7_PG7VL.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -45,7 +45,7 @@ SCR_ChimeraCharacter : "{2DB452B3EC386B92}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{691A8801C95673F3}" {
      TargetStorage "Back/Backpack_RPG_Gunner.et"
      PrefabsToSpawn {
-      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
      }
     }
    }

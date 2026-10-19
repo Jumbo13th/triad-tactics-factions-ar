@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E575D742D03BE4F5}Prefabs/Groups/OPFOR/TT_Group_USSR_RifleSquad_VDV_Para.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
