@@ -8,6 +8,9 @@ SCR_ChimeraCharacter : "{E584425516BDC81D}Prefabs/Characters/Factions/OPFOR/USSR
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{866FF8F0C5E3EC38}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_Airborne.et"
+    }
     LoadoutSlotInfo Back {
      Prefab ""
     }
