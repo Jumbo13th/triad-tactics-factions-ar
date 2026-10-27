@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{6ADFBED34A72D711}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_AT.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AAT"
+    IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_WOLVERINE ROLE_AMMOBEARER
+    }
+    m_Image "{DF63D75AA95248CB}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_AAT_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFCD2DAFFAB307}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_b30_b31_b33_camo_rk1_EXPS3_22.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1E21D7A6F75BAFA6}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_atacs.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5C3176D45FF8C045}Prefabs/Characters/Uniforms/Shirt_CP_G3/MOH_camo/CP_G3_Shirt_ColA_OutT_PushS_MOH.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{72DB97161FBA7AF0}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED3DFE6AE39}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_OutT_PushS_MOH.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED3D152C415}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
+    }
+   }
+  }
+ }
+}

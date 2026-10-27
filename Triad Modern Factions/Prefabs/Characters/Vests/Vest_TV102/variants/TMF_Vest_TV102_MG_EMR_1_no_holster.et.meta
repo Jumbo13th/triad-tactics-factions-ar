@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6ADFBED3F185BAEE}Prefabs/Characters/Vests/Vest_TV102/variants/TMF_Vest_TV102_MG_EMR_1_no_holster.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

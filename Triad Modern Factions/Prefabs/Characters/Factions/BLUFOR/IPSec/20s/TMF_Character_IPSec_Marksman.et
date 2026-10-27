@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{6ADFBED36934A714}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_Marksman"
+    IconSetName "EditableEntity_Character_Sharpshooter"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_IPSEC ROLE_SHARPSHOOTER
+    }
+    m_Image "{16653AA2D731CC5F}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Marksman_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FF9040719A465873}Prefabs/Weapons/Rifles/M27IAR/Rifle_M38SDMR_camo.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6ADFE48B18E02272}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/TMF_Helmet_OPSCORE_XP_MC_balaclava.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7BA7FF3E9F68960E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED39B2D569E}" {
+     TargetStorage "Pants/crye_pants_mc.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED39ACEF551}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED34F793B15}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+}

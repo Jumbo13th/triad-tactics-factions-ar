@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6ADFE318097650A8}Prefabs/Weapons/Rifles/M27IAR/TMF_Rifle_M27IAR_VCOG_NT4_PMAG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

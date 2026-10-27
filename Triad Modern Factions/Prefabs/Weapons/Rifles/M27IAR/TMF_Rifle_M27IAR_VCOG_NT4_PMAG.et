@@ -1,0 +1,12 @@
+GenericEntity : "{31F7F8522CF135B1}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_VCOG_NT4.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{6ADFBED3049737DF}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_SL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_PL"
+    m_Image "{CDC39427672091BD}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_PL_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFE318097650A8}Prefabs/Weapons/Rifles/M27IAR/TMF_Rifle_M27IAR_VCOG_NT4_PMAG.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BBFEA6F0D2F4564C}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_MC_PELTOR.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7BA7FF3E9F68960E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED39B2D569E}" {
+     TargetStorage "Pants/crye_pants_mc.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED39ACEF551}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
+    }
+   }
+  }
+ }
+}

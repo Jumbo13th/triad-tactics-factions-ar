@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6ADFD7E68A99B6EB}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_b10m_b19n_b33_b9m_rk3_camo_EXPS3_22.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

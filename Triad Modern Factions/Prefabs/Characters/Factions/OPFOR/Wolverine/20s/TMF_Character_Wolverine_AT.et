@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{6ADFBED35C07F629}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AT"
+    IconSetName "EditableEntity_Character_Anti_Tank"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_WOLVERINE ROLE_ANTITANK
+    }
+    m_Image "{DA53E5A8C843AE6B}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_AT_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFD0A47EB307AC}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK105_npz_b10m_EXPS3_22.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{D6BC90F8AE0AB8EF}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7_rhs.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6ADE80331C8296B2}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Helmet_LShZ_6m2_emr_balaclava.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{1E991CD19C6F7659}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Brown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED3DFE6AE39}" {
+     TargetStorage "Jacket/Triada_Combat_Shirt_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED3D152C415}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+     }
+    }
+   }
+  }
+ }
+}

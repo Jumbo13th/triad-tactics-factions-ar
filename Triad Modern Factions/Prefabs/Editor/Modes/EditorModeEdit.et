@@ -11,6 +11,14 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
     }
     SCR_PlaceableEntitiesRegistry "{69EF48AAC769948D}" : "{C91178BD3B787CCA}Configs/Editor/PlaceableEntities/Groups_CDF.conf" {
     }
+    SCR_PlaceableEntitiesRegistry "{6ADFBED33B540427}" : "{6ADFBED3AE5F16C6}Configs/Editor/PlaceableEntities/Characters_WOLVERINE.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{6ADFBED3CFFD7D2E}" : "{6ADFBED319CD0F63}Configs/Editor/PlaceableEntities/Groups_WOLVERINE.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{6ADFBED3F91D4979}" : "{6ADFBED386007C02}Configs/Editor/PlaceableEntities/Characters_IPSEC.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{6ADFBED3DFB6999B}" : "{6ADFBED3A6623015}Configs/Editor/PlaceableEntities/Groups_IPSEC.conf" {
+    }
    }
   }
  }

@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{6ADFBED35C07F629}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_Crew"
+    IconSetName "EditableEntity_Character_Driver"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_WOLVERINE ROLE_RIFLEMAN TRAIT_VEHICLE_CREW
+    }
+    m_Image "{1C56BCCC11EA2C84}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Crew_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFD7E620D35149}Prefabs/Weapons/Rifles/AKS74UN/TMF_Rifle_AKS74UN_b18_b11u_b19n_agr47_glcore_22_rk0.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{367BEEE3BE61C597}Prefabs/Characters/HeadGear/Headgear_TSh4/Helmet_tsh4.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{45990536E93CA54A}Prefabs/Characters/Uniforms/Jacket_VKPO.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{36C06BDF4F6F212B}Prefabs/Characters/Uniforms/Pants_VKPO.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED3AAAC0190}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED3DFE6AE39}" {
+     TargetStorage "Jacket/Jacket_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED34333DE97}" {
+     PrefabsToSpawn {
+      "{6ADFBED3BF6FDB10}Prefabs/Items/Equipment/Radios/TMF_Radio_R187P1_Wolverine_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3D152C415}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{1E21D7A6F75BAFA6}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_atacs.et"
+     }
+    }
+   }
+  }
+ }
+}

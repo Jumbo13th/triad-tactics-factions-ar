@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{6ADFBED3049737DF}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_SL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Pilot"
+    IconSetName "EditableEntity_Character_Helicopter_Pilot"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_IPSEC TRAIT_HELI_CREW
+    }
+    m_Image "{9897DE8D2540916D}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Pilot_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFD0A4B3631C12}Prefabs/Weapons/Rifles/M4A1/TMF_Rifle_M4A1_BLOCK_1_BLK_EXPS3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{483A80042765275F}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{56C5A44B89D782D8}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_OutT_FullS_MC_BLK.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0431EA00E8B1CA6A}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED39B2D569E}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED39ACEF551}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_OutT_FullS_MC_BLK.et"
+    }
+   }
+  }
+ }
+}

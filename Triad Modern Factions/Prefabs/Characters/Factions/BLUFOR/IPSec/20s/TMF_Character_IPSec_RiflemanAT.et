@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{6ADFBED36934A714}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_RiflemanAT"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_IPSEC ROLE_RIFLEMAN ROLE_ANTITANK
+    }
+    m_Image "{9DE09ABAD864BB93}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_RiflemanAT_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+ }
+}

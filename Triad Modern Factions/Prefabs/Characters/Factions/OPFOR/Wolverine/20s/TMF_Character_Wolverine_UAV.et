@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{6ADFBED35C07F629}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_UAV"
+    m_Image "{291B4F89E0288937}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_UAV_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFCD2D5191588B}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_npz_b10m_EXPS3_dtk1_22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{93346FBCF0E18517}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_6m2_emr.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED34333DE97}" {
+     PrefabsToSpawn {
+      "{6ADFBED3BF6FDB10}Prefabs/Items/Equipment/Radios/TMF_Radio_R187P1_Wolverine_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

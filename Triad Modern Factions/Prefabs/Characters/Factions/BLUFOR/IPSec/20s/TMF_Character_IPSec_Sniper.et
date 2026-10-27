@@ -1,0 +1,117 @@
+SCR_ChimeraCharacter : "{6ADFBED36934A714}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{57C7E2D1FB25A85E}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_green.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_Sniper"
+    IconSetName "EditableEntity_Character_Sharpshooter"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_IPSEC ROLE_SHARPSHOOTER
+    }
+    m_Image "{B75F73E4D4559BF8}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Sniper_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_olive.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3F8A43CF6BB9B0AD}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_AOR2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{C4FEAEB4AAA7B6B2}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_Coy.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B3123B204D2C0BFD}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_AOR2.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{38D600B4D232D9D9}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_sniper.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED39B2D569E}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED39ACEF551}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED3F80E7F82}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED347D52B39}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/HSGI/Pouch_Highspeed_Bleeder.et"
+     PrefabsToSpawn {
+      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED308C6B824}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/takobelt2/Pouch_PCGEN3_util.et"
+     PrefabsToSpawn {
+      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3A6BBD20D}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3CFB3449C}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3BE5827C2}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED351B12CA0}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED32AFC8CBB}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/m67/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED330279D11}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/pistolpouch2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED31B2DB3B1}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED307071EFA}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/m18_2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED34F793B15}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
+     PrefabsToSpawn {
+      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+}

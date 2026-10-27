@@ -1,0 +1,17 @@
+GenericEntity : "{8723C99D1D1F2CA2}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_1_BLK.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{F016B4DEF5F4DD5D}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-2.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+}

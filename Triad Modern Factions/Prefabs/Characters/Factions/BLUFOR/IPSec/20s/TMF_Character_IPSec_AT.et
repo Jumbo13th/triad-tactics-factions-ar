@@ -1,0 +1,59 @@
+SCR_ChimeraCharacter : "{6ADFBED36934A714}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AT"
+    IconSetName "EditableEntity_Character_Anti_Tank"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_IPSEC ROLE_ANTITANK
+    }
+    m_Image "{8A8E74425A02DB85}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_AT_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{40DC4A6EE53B969E}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Variants/Rifle_DOMk18_ION_RMR_SD.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{DB53366D8C521124}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2_NoMBS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6ADFCD2DCB7D74A7}Prefabs/Characters/HeadGear/Helmet_ECH/variants/TMF_Helmet_ECH_lc_cwd_balaclava.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{CDAEDCACFA174F9E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_MARPAT_Woodland.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7DF25380BEFEA3A0}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_marpat.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{1E991CD19C6F7659}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Brown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED39B2D569E}" {
+     TargetStorage "Pants/crye_pants_marpat.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED39ACEF551}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_Rolled_MARPAT_Woodland.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED34F793B15}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et" "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
+     }
+    }
+   }
+  }
+ }
+}

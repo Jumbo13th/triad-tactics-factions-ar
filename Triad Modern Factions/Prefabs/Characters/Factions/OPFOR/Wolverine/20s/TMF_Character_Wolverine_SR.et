@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{6ADFBED35C07F629}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_SR"
+    IconSetName "EditableEntity_Character_Leader_Team"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_WOLVERINE ROLE_GRENADIER
+    }
+    m_Image "{B4BAAADF8C86F9EC}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_SR_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FBD2ECC986FB2949}Prefabs/Weapons/Rifles/AK74M/variants/TMF_Rifle_AK74M_b10m_b19n_npz_rail_perst_Eot_gp25_22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6ADE80331C8296B2}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Helmet_LShZ_6m2_emr_balaclava.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DE2F0A4C83BD3A6F}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_atacs.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED3AAAC0190}" {
+     TargetStorage "Pants/crye_pants_atacs.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED3DFE6AE39}" {
+     TargetStorage "Jacket/Triada_Combat_Shirt_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED3B636829A}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_2.et/drop/Pouch_UP113_DropPouch_FG.et"
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED35C710E2B}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_2.et/kangoroo/Pouch_AACPC_front_molle_FG.et"
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3D152C415}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+   }
+  }
+ }
+}

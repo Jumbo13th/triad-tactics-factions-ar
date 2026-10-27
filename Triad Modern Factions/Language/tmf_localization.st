@@ -134,10 +134,24 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6ADFBED3C6BDAE75}" {
+   Id "TMF_Factions_IPSEC"
+   Target_en_us "IPSec"
+   Modified 1793048278
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69E93B13A0A6AFBF}" {
    Id "TMF_Factions_NAPA"
    Target_en_us "NAPA"
    Modified 1776893290
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6ADFBED3946B29AA}" {
+   Id "TMF_Factions_WOLVERINE"
+   Target_en_us "Wolverine"
+   Modified 1793048278
    Author "siwi1"
    LastChanged "siwi1"
   }
@@ -176,6 +190,20 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{6ADFBED389A6D20B}" {
+   Id "TMF_Radio_Hand_IPSEC"
+   Target_en_us "Handheld Radio (IPSec)"
+   Modified 1793048278
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6ADFBED32573D169}" {
+   Id "TMF_Radio_Hand_IPSEC_SL"
+   Target_en_us "Handheld Radio (IPSec, SL)"
+   Modified 1793048278
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
   CustomStringTableItem "{69E946392150E67A}" {
    Id "TMF_Radio_Hand_NAPA"
    Target_en_us "Handheld Radio (NAPA)"
@@ -187,6 +215,20 @@ StringTable {
    Id "TMF_Radio_Hand_NAPA_SL"
    Target_en_us "Handheld Radio (NAPA, SL)"
    Modified 1777028756
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6ADFBED3E86D1DFA}" {
+   Id "TMF_Radio_Hand_WOLVERINE"
+   Target_en_us "Handheld Radio (Wolverine)"
+   Modified 1793048278
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{6ADFBED340FC5439}" {
+   Id "TMF_Radio_Hand_WOLVERINE_SL"
+   Target_en_us "Handheld Radio (Wolverine, SL)"
+   Modified 1793048278
    Author "siwi1"
    LastChanged "siwi1"
   }

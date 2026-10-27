@@ -1,0 +1,14 @@
+GenericEntity : "{F88F9470024CA771}Prefabs/Weapons/Rifles/AKS74UN/TMF_Rifle_AKS74UN_b18_b11u_b19n_agr47_glcore_22.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6990FB643AD4E99C}" {
+     AttachmentSlot InventoryStorageSlot ForwardGrip {
+      Prefab "{8B408A3D9367CB43}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK0_base.et"
+     }
+    }
+   }
+  }
+ }
+}

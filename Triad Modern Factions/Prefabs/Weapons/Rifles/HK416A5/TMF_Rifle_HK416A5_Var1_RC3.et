@@ -1,0 +1,19 @@
+GenericEntity : "{353D39126E677470}Prefabs/Weapons/Rifles/HK416A5/Rifle_HK416A5_Var1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{696ADB536E8B0718}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{CB2ED665F4671DDA}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC3.et"
+       }
+      }
+     }
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+}

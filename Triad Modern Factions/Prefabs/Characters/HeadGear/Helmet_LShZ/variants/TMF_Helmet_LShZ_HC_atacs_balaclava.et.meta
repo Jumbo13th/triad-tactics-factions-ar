@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6ADFCD2D9D42FBE5}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/TMF_Helmet_LShZ_HC_atacs_balaclava.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

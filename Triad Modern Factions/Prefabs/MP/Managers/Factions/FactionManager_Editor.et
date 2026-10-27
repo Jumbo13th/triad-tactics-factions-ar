@@ -5,5 +5,9 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{69ED4AD691711FDC}" : "{B15B39077B0E1055}Configs/Factions/CDF.conf" {
   }
+  SCR_Faction "{6ADFBED34320835B}" : "{6ADFBED3AF13A9D6}Configs/Factions/WOLVERINE.conf" {
+  }
+  SCR_Faction "{6ADFBED3D91FF438}" : "{6ADFBED32982D9F9}Configs/Factions/IPSEC.conf" {
+  }
  }
 }

@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{6ADFBED36934A714}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{57C7E2D1FB25A85E}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_green.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AMG"
+    IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_IPSEC ROLE_AMMOBEARER
+    }
+    m_Image "{AAEA742442D0B2E4}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_AMG_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3BB52CEF1659F3C0}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1_su231A.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1FF9C3A50028306D}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_LBH_AOR2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{738817B8BFA36DE6}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_AOR2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5B2078D4EAA62DA1}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_AOR2.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED39B2D569E}" {
+     TargetStorage "Pants/crye_pants_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED39ACEF551}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_Rolled_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED34F793B15}" {
+     TargetStorage "Back/Backpack_511_rush12_od.et"
+     PrefabsToSpawn {
+      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{4EEDDB27C023B8B9}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

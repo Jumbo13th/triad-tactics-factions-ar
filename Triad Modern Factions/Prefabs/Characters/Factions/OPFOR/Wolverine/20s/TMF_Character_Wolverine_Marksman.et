@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{6ADFBED35C07F629}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_Marksman"
+    IconSetName "EditableEntity_Character_Sharpshooter"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_WOLVERINE ROLE_SHARPSHOOTER
+    }
+    m_Image "{BF4D2C76DB5ED0F0}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Marksman_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A1D362D6C404CACB}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{10E223B05E8874EA}Prefabs/Characters/HeadGear/Helmet_Spartan3/Helmet_Spartan3_FG.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DE2F0A4C83BD3A6F}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_atacs.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED3AAAC0190}" {
+     TargetStorage "Pants/crye_pants_atacs.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED3DFE6AE39}" {
+     TargetStorage "Jacket/Triada_Combat_Shirt_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED38F6536BC}" {
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED355A90A21}" {
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3B1F2EA29}" {
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED387B63AE0}" {
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3346C87E9}" {
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED37DB783F9}" {
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3562B2083}" {
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3D152C415}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+   }
+  }
+ }
+}

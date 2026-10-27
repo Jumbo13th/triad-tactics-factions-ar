@@ -1,0 +1,24 @@
+GenericEntity : "{1A912E7913F32ECA}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1_TA31RCO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D873BE26346E4D7}" {
+     AttachmentSlot InventoryStorageSlot attachment_railcover {
+      Prefab "{B9E528A31A6F0A02}Prefabs/Weapons/Attachments/Misc/manta_railcover/kits/RHS_manta_kit_kacGrip_M27_3.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626541D4146E1B36}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{B9C41AAC90570E50}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS.et"
+       }
+      }
+     }
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+GameEntity : "{9217B5D545B811F6}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_MG_EMR_1.et" {
+ ID "6216975224AE5CFA"
+ components {
+  BaseLoadoutClothComponent "{6216975224AE5B4A}" {
+   Slots {
+    LoadoutSlotInfo holster {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

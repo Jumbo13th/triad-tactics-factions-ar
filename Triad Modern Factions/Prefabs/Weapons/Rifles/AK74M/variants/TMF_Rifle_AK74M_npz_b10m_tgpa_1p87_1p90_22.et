@@ -1,0 +1,17 @@
+GenericEntity : "{0ADB6F1C904A1195}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_b19n_tgpa_RG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66836508398193D8}" {
+     AttachmentSlot InventoryStorageSlot Foregrip {
+      Prefab "{8B408A3D9367CB43}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK0_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,33 @@
+SCR_ChimeraCharacter : "{6ADFBED36934A714}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_UAV"
+    m_Image "{48B2DFF1DBD0C3F7}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_UAV_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFD0A47DCB6B8F}Prefabs/Weapons/Rifles/M4A1/Variants/ION/TMF_Rifle_AR15_GA_UD115_RIS_BLK_su231A.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D928AB10EAB641BC}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC_AMP.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED3F80E7F82}" {
+     PrefabsToSpawn {
+      "{6ADFBED354607567}Prefabs/Items/Equipment/Radios/TMF_Radio_ANPRC152A_IPSec_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

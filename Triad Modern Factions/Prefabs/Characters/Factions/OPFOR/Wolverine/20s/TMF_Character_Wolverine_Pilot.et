@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{6ADFBED3BD9C710E}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_SL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Pilot"
+    IconSetName "EditableEntity_Character_Helicopter_Pilot"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_WOLVERINE TRAIT_HELI_CREW
+    }
+    m_Image "{98E0C1E6B7CD2B4C}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Pilot_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFD7E620D35149}Prefabs/Weapons/Rifles/AKS74UN/TMF_Rifle_AKS74UN_b18_b11u_b19n_agr47_glcore_22_rk0.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BFE3D93AA5B13A89}Prefabs/Characters/HeadGear/Helmet_ZSh7/Helmet_ZSh7V.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{03FF161D3AC1E1DF}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{8EF93CC5575CFD4B}Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED3AAAC0190}" {
+     TargetStorage "Pants/Field_Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED3DFE6AE39}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
+    }
+   }
+  }
+ }
+}

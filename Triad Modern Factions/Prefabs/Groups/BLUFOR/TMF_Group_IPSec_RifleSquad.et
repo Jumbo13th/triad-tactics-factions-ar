@@ -1,0 +1,139 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Groups_RifleSquad"
+    m_sFaction "IPSEC"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_IPSEC TRAIT_ARMORPIERCING TRAIT_SUPPRESSIVE TRAIT_EXPLOSIVE
+    }
+    m_aAutoLabels {
+     GROUPSIZE_LARGE
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 525
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 7
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6ADFBED3F326AB9C}" {
+      m_BudgetType AI
+      m_Value 7
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+    m_Image "{9E8B53CE79B64310}UI/Textures/EditorPreviews/Groups/BLUFOR/TMF_Group_IPSec_RifleSquad_BCR.edds"
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity BLUFOR
+    m_Icons INFANTRY
+    m_Amplifier SQUAD
+   }
+  }
+  SCR_PreviewEntityComponent "{5636898C25429AD9}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6ADFBED302CE0004}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED38147C29B}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED343E761D8}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED392156847}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED328D687EF}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED3AFFAB50D}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED3BD4BC5B7}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 9 0 -9
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED31160EA4F}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -9 0 -9
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ m_faction "IPSEC"
+ m_aUnitPrefabSlots {
+  "{6ADFBED3049737DF}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_SL.et" "{6ADFBED346FC8628}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_SR.et" "{6ADFBED32862A430}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_MG.et" "{6ADFBED3B8960D4E}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_AMG.et" "{6ADFBED3E79145FC}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_AT.et" "{6ADFBED30F07776D}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_AAT.et" "{6ADFBED3DA62E793}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Marksman.et"
+ }
+}

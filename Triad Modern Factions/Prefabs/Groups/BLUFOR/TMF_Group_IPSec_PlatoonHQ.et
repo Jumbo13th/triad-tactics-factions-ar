@@ -1,0 +1,99 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Groups_PlatoonHQ"
+    m_sFaction "IPSEC"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_IPSEC TRAIT_RADIO
+    }
+    m_aAutoLabels {
+     GROUPSIZE_SMALL
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 225
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 3
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6ADFBED33980763C}" {
+      m_BudgetType AI
+      m_Value 3
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Icons 0
+     m_Amplifier NONE
+    }
+    m_Image "{A49968D34925535A}UI/Textures/EditorPreviews/Groups/BLUFOR/TMF_Group_IPSec_PlatoonHQ_BCR.edds"
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity BLUFOR
+    m_Icons 0
+    m_Amplifier NONE
+   }
+  }
+  SCR_PreviewEntityComponent "{5636898C25429AD9}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6ADFBED38E319CFD}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED35F9F31D7}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED353D492CD}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6ADFBED33445B4D8}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ m_faction "IPSEC"
+ m_aUnitPrefabSlots {
+  "{6ADFBED39AFB1154}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_PL.et" "{6ADFBED337B4E324}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_DPL.et" "{6ADFBED31EE7DCAB}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_UAV.et"
+ }
+}

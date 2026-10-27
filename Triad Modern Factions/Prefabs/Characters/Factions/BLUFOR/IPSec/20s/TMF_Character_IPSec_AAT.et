@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{6ADFBED3E79145FC}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_AT.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_AAT"
+    IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_IPSEC ROLE_AMMOBEARER
+    }
+    m_Image "{BECA472292AA020B}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_AAT_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFE03E1E9BC032}Prefabs/Weapons/Rifles/M4A1/Variants/ION/TMF_Rifle_AR15_GA_UD115_RIS_ODG_NoBUIS.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E881810B2CE6E4AD}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{23428DF912E6E1DF}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_PushS_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{BC13AD4C3E6173AF}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsG2_MC.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{8C3121C7FB112534}Prefabs/Characters/Footwear/Tropico_army_boots/Tropico_army_boots.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED39B2D569E}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG2_MC.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED39ACEF551}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_PushS_MC.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED34F793B15}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
+     PrefabsToSpawn {
+      "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
+     }
+    }
+   }
+  }
+ }
+}

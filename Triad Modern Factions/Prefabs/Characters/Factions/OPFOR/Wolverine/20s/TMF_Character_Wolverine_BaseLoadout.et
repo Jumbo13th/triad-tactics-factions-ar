@@ -1,0 +1,77 @@
+SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{CCB365E9B5737ECD}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_black.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "WOLVERINE"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{EE0B4CDEA86FC24A}UI/Textures/DeployMenu/LoadoutIcons/LoadoutIcons.imageset"
+    IconSetName "EditableEntity_Character_Rifleman"
+    m_sFaction "WOLVERINE"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_WOLVERINE ROLE_RIFLEMAN
+    }
+    m_Image "{9FC8551709F69C39}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_BaseLoadout_BCR.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1E21D7A6F75BAFA6}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_atacs.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{40817B8A82B52187}Prefabs/Characters/Uniforms/Shirt_CP_G3/MOH_camo/CP_G3_Shirt_ColA_BaseT_RollS_MOH.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{727037C2C61797A8}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants_EMR.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED3AAAC0190}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3DFE6AE39}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MOH.et"
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED34333DE97}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MOH.et"
+     PrefabsToSpawn {
+      "{6ADFBED3A2538B40}Prefabs/Items/Equipment/Radios/TMF_Radio_R187P1_Wolverine.et"
+     }
+    }
+   }
+  }
+ }
+}

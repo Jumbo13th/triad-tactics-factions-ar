@@ -1,0 +1,61 @@
+SCR_ChimeraCharacter : "{6ADFBED36934A714}Prefabs/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_Crew"
+    IconSetName "EditableEntity_Character_Driver"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_IPSEC ROLE_RIFLEMAN TRAIT_VEHICLE_CREW
+    }
+    m_Image "{E149D6F68BE5F0E6}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/IPSec/20s/TMF_Character_IPSec_Crew_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFD0A4B3631C12}Prefabs/Weapons/Rifles/M4A1/TMF_Rifle_M4A1_BLOCK_1_BLK_EXPS3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1608873B6690044C}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3BC516F2309FA28E}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0431EA00E8B1CA6A}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED39B2D569E}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED39ACEF551}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED3F80E7F82}" {
+     PrefabsToSpawn {
+      "{6ADFBED354607567}Prefabs/Items/Equipment/Radios/TMF_Radio_ANPRC152A_IPSec_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED34F793B15}" {
+     TargetStorage "Back/Backpack_511_rush12_od.et"
+     PrefabsToSpawn {
+      "{E881810B2CE6E4AD}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC.et"
+     }
+    }
+   }
+  }
+ }
+}

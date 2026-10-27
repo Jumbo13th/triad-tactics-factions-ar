@@ -1,0 +1,12 @@
+GenericEntity : "{0761CE8644BBB28E}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+}

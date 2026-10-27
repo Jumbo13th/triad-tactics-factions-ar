@@ -1,0 +1,112 @@
+SCR_ChimeraCharacter : "{6ADFBED35C07F629}Prefabs/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TMF_Characters_MG"
+    IconSetName "EditableEntity_Character_Machinegunner"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_WOLVERINE ROLE_MACHINEGUNNER
+    }
+    m_Image "{CE73D6AE18391E84}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/Wolverine/20s/TMF_Character_Wolverine_MG_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6ADFD5727790FAEA}Prefabs/Weapons/MachineGuns/PKM/TMF_MG_PKP_B51_B50_PT2_EXPS3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CB544B14CBE1DB94}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2_balaclava.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{FAECE2A4CCD7FB96}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_EMR.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6ADFBED3F185BAEE}Prefabs/Characters/Vests/Vest_TV102/variants/TMF_Vest_TV102_MG_EMR_1_no_holster.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6ADFBED3DFE6AE39}" {
+     TargetStorage "Jacket/Triada_Combat_Shirt_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED34333DE97}" {
+     TargetStorage "Vest/TMF_Vest_TV102_MG_EMR_1_no_holster.et/radio/Pouch_UP111_radioClosed_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED38F6536BC}" {
+     TargetStorage "Vest/TMF_Vest_TV102_MG_EMR_1_no_holster.et/PKM1/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED355A90A21}" {
+     TargetStorage "Vest/TMF_Vest_TV102_MG_EMR_1_no_holster.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3B1F2EA29}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED387B63AE0}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3346C87E9}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED37DB783F9}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3562B2083}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3201114BF}" {
+     TargetStorage "Vest/TMF_Vest_TV102_MG_EMR_1_no_holster.et/grenade2/Pouch_UP104_utilmini_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED305121EA3}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3146465D3}" {
+     TargetStorage "Vest/TMF_Vest_TV102_MG_EMR_1_no_holster.et/drop/Pouch_UP103_Medkit_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6ADFBED30AF8F278}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6ADFBED3D152C415}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6ADFCD2DE62F5645}Prefabs/Weapons/Rifles/M4A1/TMF_Rifle_M4A1_M203_RAS_SU230_PEQ_PMAG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
