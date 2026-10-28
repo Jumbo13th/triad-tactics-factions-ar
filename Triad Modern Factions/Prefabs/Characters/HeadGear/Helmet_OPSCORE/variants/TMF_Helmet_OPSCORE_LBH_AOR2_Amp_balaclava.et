@@ -4,7 +4,7 @@ GameEntity : "{7C320B4002B29E0A}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helme
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     RHS_LoadoutSlotInfo Masks {
-     Prefab "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et"
+     Prefab "{F666F01271F1BCC3}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_Multicam.et"
     }
    }
   }

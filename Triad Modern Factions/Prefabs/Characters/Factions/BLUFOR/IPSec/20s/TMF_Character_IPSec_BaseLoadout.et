@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{E881810B2CE6E4AD}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC.et"
+     Prefab "{6ADFE48B1979737B}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/TMF_Helmet_OPSCORE_MT_MC_balaclava.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{7F453261721CCE10}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"

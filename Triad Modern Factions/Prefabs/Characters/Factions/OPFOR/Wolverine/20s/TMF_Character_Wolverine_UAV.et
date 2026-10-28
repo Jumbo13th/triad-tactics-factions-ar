@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{6ADFBED35C07F629}Prefabs/Characters/Factions/OPFOR/Wolv
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{93346FBCF0E18517}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_6m2_emr.et"
+     Prefab "{6ADE80331C8296B2}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Helmet_LShZ_6m2_emr_balaclava.et"
     }
     SCR_FeetLoadoutSlotInfo Boots {
      Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"

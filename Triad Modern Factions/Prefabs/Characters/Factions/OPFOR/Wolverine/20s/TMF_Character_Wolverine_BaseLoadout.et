@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1E21D7A6F75BAFA6}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_atacs.et"
+     Prefab "{6ADFCD2DA91CCB63}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/TMF_Helmet_LShZ_atacs_balaclava.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{40817B8A82B52187}Prefabs/Characters/Uniforms/Shirt_CP_G3/MOH_camo/CP_G3_Shirt_ColA_BaseT_RollS_MOH.et"

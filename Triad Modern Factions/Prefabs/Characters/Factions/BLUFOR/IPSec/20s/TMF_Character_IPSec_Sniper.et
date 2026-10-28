@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{6ADFBED36934A714}Prefabs/Characters/Factions/BLUFOR/IPS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_olive.et"
+     Prefab "{75F47839F14C4F30}Prefabs/Characters/HeadGear/Hat_Beanie/variants/TMF_Hat_beanie_brown_balaclava.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{3F8A43CF6BB9B0AD}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_AOR2.et"

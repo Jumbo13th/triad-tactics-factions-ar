@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1689A3B8FFFBCDAF}Prefabs/Characters/HeadGear/Helmet_Spartan3/Variants/TMF_Helmet_Spartan3_FG_Sordin_balaclava.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

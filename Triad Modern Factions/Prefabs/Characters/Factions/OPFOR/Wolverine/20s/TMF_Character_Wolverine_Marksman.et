@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{6ADFBED35C07F629}Prefabs/Characters/Factions/OPFOR/Wolv
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{10E223B05E8874EA}Prefabs/Characters/HeadGear/Helmet_Spartan3/Helmet_Spartan3_FG.et"
+     Prefab "{A3C2178E9BF3F2E0}Prefabs/Characters/HeadGear/Helmet_Spartan3/Variants/TMF_Helmet_Spartan3_FG_balaclava.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et"
