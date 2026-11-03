@@ -1,0 +1,12 @@
+GenericEntity : "{F82DF06C1E34128E}Prefabs/Weapons/Rifles/VSS/Rifle_VSS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{65D96648CF6F1B74}" {
+     MagazineTemplate "{6AE9E8548AE5B2CD}Prefabs/Weapons/Magazines/TCW_Magazine_9x39_VSS_20rnd_SP6.et"
+    }
+   }
+  }
+ }
+}

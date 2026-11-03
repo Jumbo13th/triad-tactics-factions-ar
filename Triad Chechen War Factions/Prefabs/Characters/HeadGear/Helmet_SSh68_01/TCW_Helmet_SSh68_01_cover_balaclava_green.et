@@ -1,0 +1,14 @@
+GameEntity : "{3D74845B9D0867B0}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover.et" {
+ ID "511A2721D065476F"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Mask {
+     Prefab "{288E68BA8AD2A1E6}Prefabs/Characters/HeadGear/Hat_Balaclava/GD_Balaclava_3holes_Green.et"
+     AreaType LoadoutHeadCoverArea "{6AE9A7C527D40221}" {
+     }
+    }
+   }
+  }
+ }
+}

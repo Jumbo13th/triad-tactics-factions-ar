@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6AE9A7C5F44288AE}Language/tcw_localization.st"
+ Configurations {
+  StringTableResourceClass PC {
+  }
+  StringTableResourceClass XBOX_ONE : PC {
+  }
+  StringTableResourceClass XBOX_SERIES : PC {
+  }
+  StringTableResourceClass PS4 : PC {
+  }
+  StringTableResourceClass PS5 : PC {
+  }
+  StringTableResourceClass HEADLESS : PC {
+  }
+  StringTableResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,5 @@
+modded enum EEditableEntityLabel
+{
+	FACTION_RF90 = 1793055200,
+	FACTION_CHRI = 1793055300
+}

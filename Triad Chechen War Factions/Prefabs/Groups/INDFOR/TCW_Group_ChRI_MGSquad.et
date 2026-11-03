@@ -1,0 +1,139 @@
+SCR_AIGroup : "{242BC3C6BCE96EA5}Prefabs/Groups/INDFOR/Group_FIA_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Groups_MGSquad"
+    m_sFaction "CHRI"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_CHRI TRAIT_SUPPRESSIVE
+    }
+    m_aAutoLabels {
+     GROUPSIZE_LARGE
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 525
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 7
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6AE9B5D70A7A973C}" {
+      m_BudgetType AI
+      m_Value 7
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity INDFOR
+     m_Dimension LAND
+     m_Icons MACHINEGUN
+     m_Amplifier SQUAD
+    }
+    m_Image "{5FE30ECDEB299DDF}UI/Textures/EditorPreviews/Groups/INDFOR/TCW_Group_ChRI_MGSquad_BCR.edds"
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity INDFOR
+    m_Icons MACHINEGUN
+    m_Amplifier SQUAD
+   }
+  }
+  SCR_PreviewEntityComponent "{5636898C25429AD9}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6AE9B5D74F291548}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE9B5D79DCB4C37}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE9B5D7CED9B1C0}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE9B5D7095F7937}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE9B5D7E53D54EA}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE9B5D70BC1D6F5}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE9B5D78D676387}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 9 0 -9
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE9B5D7AF0D8B58}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -9 0 -9
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ m_faction "CHRI"
+ m_aUnitPrefabSlots {
+  "{6AE8F9767F86AD8F}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_SL.et" "{6AE8F976D0DD52B0}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_MG.et" "{6AE8F976FEDA31D2}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_AMG.et" "{6AE8F976D0DD52B0}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_MG.et" "{6AE8F976FEDA31D2}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_AMG.et" "{6AE8F976D0DD52B0}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_MG.et" "{6AE8F976FEDA31D2}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_AMG.et"
+ }
+}

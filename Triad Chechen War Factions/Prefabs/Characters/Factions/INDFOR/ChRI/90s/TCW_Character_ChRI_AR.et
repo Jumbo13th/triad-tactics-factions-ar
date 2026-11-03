@@ -1,0 +1,61 @@
+SCR_ChimeraCharacter : "{6AE8F97692BA2F1E}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Characters_AR"
+    IconSetName "EditableEntity_Character_Machinegunner"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_CHRI ROLE_MACHINEGUNNER
+    }
+    m_Image "{60D7E660AF6932B0}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_AR_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6AE9BD1CE8155639}Prefabs/Weapons/MachineGuns/RPK74/TCW_MG_RPK74.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B9687B8829272E14}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_brown.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3C44AF5729CA80AB}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_beige_Dirty.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4711A4CAF64C4CEE}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_AR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AE8F976F7B33DF4}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F9764AC467E6}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/MagPouch_6Sh46/Pouch_Soviet_45rnd_RPK74.et"
+     PrefabsToSpawn {
+      "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9765E838BE7}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/GrenadePouch/Pouch_Soviet_45rnd_RPK74.et"
+     PrefabsToSpawn {
+      "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9769D6C5DEE}" {
+     PrefabsToSpawn {
+      "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et" "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et" "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

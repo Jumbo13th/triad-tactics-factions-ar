@@ -1,0 +1,60 @@
+SCR_ChimeraCharacter : "{6AE8F976E6E6D759}Prefabs/Characters/Factions/OPFOR/RF/90s/TCW_Character_RF90_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Characters_AT"
+    IconSetName "EditableEntity_Character_Anti_Tank"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_RF90 ROLE_ANTITANK
+    }
+    m_Image "{4C96E789CD1078DC}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RF/90s/TCW_Character_RF90_AT_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6AE9BD1C8BBEBD08}Prefabs/Weapons/Rifles/AKS74U/TCW_Rifle_AKS74U.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{A64B7DF2668C5A05}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7_PG7VL.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5F8928B41FB86990}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6AE9A9024721E8E4}Prefabs/Characters/Uniforms/Jacket_M88_VSR93/Jacket_M88_rolledup_VSR93_2.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0D39750E5695B9D8}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AE8F97654A2335D}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup_VSR93_2.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F97685906381}" {
+     PrefabsToSpawn {
+      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9766FC7052B}" {
+     PrefabsToSpawn {
+      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F976090F3A93}" {
+     TargetStorage "Back/Backpack_RPG_Gunner.et"
+     PrefabsToSpawn {
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{6AE8F9768FAE413E}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_Crew.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Characters_CrewCommander"
+    m_Image "{F12FE138D5183F2E}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_CrewCommander_BCR.edds"
+   }
+  }
+ }
+}

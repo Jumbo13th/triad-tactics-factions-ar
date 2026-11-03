@@ -1,0 +1,12 @@
+GenericEntity : "{8CFEE770D8AD8F5F}Prefabs/Weapons/Rifles/AKM/Rifle_AKMN_GP25.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{6AE8F97620C3752D}" : "{6AE8F976D98B4A7E}Configs/Editor/PlaceableEntities/Characters_RF90.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{6AE8F9767F607DE5}" : "{6AE8F9769343F65B}Configs/Editor/PlaceableEntities/Groups_RF90.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{6AE8F9761FFE82B7}" : "{6AE8F976E1E028C3}Configs/Editor/PlaceableEntities/Characters_CHRI.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{6AE8F976045C9C12}" : "{6AE8F976AB4F809F}Configs/Editor/PlaceableEntities/Groups_CHRI.conf" {
+    }
+   }
+  }
+ }
+}

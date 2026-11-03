@@ -1,0 +1,181 @@
+GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SoundComponent "{6AE9DE1C07D720D1}" {
+   Filenames {
+    "{5409F2998421DA59}Sounds/Items/Equipment/Radios/Items_Radio_Inspection_Actions.acp" "{4AB5F7FA7BB2CCBF}Sounds/Items/_SharedData/PickUp/Items_PickUp_RespawnKit.acp" "{77EF656D5DAC6FD5}Sounds/Items/_SharedData/Drop/Items_Drop_RespawnKit.acp" "{EFFB3D8065A486E3}Sounds/Items/DeployableRadio/Items_DeployableRadio.acp"
+   }
+   DistanceManagement 0
+   IncludeInactive 1
+   SoundPoints {
+    SoundPointInfo RadioPosition {
+     Offset 0 1.2272 0
+    }
+   }
+  }
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "chri"
+   Transceivers {
+    RelayTransceiver "{6AE9DCF6F4882BA3}" {
+     ChannelFrequency 62000
+     "Transmitting Range" 6000
+     "Min tunable frequency" 32000
+     "Max tunable frequency" 68000
+     "Frequency resolution" 200
+    }
+   }
+   "Turned on" 1
+  }
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{77C9FCF3FB1246E9}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_item.xob"
+  }
+  RigidBody "{5A30BAE7673C63D3}" {
+   ModelGeometry 1
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#TCW_Radio_Pack_CHRI"
+     Icon "{650E1AA9B7CB1F9A}UI/Textures/VON/R107M-100px_UI.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 18.5
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 10000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AE9DDF11DBA9930}" {
+      CameraPreset Back
+      CameraOrbitAngles 25 -25 180
+      CameraDistanceToItem 4
+      CameraOffset 0 -0.1 0
+      FOV 10
+      PreviewModel "{518A95342557BC80}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01.xob"
+      AspectRatio 1
+     }
+     SCR_VONPreviewAttributes "{6AE9DDF13F6587C5}" {
+      CameraOrbitAngles 0 -150 4
+      CameraDistanceToItem 1.3
+      CameraOffset 0.05 -0.1 0
+      FOV 40
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+    CommonItemType "RHS_RADIO_MANPACK"
+   }
+  }
+  SCR_RadioComponent "{5A30BAE7673C63D4}" {
+   m_bCanBeHeld 0
+   m_iRadioCategory MANPACK
+   m_iRadioType R107M
+  }
+  SCR_RestrictedDeployableSpawnPointComponent "{6AE9DDF15C6BCC88}" {
+   m_bDeleteWhenDestroyed 1
+   m_sSpawnPointPrefab "{35347E7AA6BDF8CE}Prefabs/MP/Spawning/ItemSpecifics/RestrictedDeployableSpawnPoint_Radio.et"
+   m_eRespawnBudgetType SPAWNTICKET
+   m_iMaxRespawns 3
+   m_iRespawnGenerationAmount 1
+   m_bQueryFactionRadioRange 1
+   m_bQuerySpawnPoints 1
+   m_fQueryRadiusBases 80
+   m_fQueryRadiusSpawnPoints 80
+   m_fQueryRadiusCharacters 60
+   m_bQueryAllBases 1
+   m_sReplacementPrefab "{04F7BB1A1EA8BA23}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementUSSR.et"
+   m_FactionKey "USSR"
+  }
+  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+   Enabled 0
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{4AB5F7FA7BB2CCBF}Sounds/Items/_SharedData/PickUp/Items_PickUp_RespawnKit.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{4AB5F7FA7BB2CCBF}Sounds/Items/_SharedData/PickUp/Items_PickUp_RespawnKit.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D20930D9E274}" {
+     m_sSoundProject "{77EF656D5DAC6FD5}Sounds/Items/_SharedData/Drop/Items_Drop_RespawnKit.acp"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6AE9DDF148452C67}" {
+   AreaType LoadoutBackpackArea "{6AE9DCF6078EAD3E}" {
+   }
+   WornModel "{518A95342557BC80}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01.xob"
+   ItemModel "{77C9FCF3FB1246E9}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_item.xob"
+   VisibleInVehicle 0
+   DepthBack 0.025
+   OffsetShoulderLeft -0.1
+   OffsetShoulderRight 0.1
+   DeflatedModel "{302BB60AB83B93E7}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_Inflated.xob"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{6AE9DE1C84CEDA46}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+     Position PointInfo "{508AC2ABEAC4A0F5}" {
+      Offset 0 0.1504 -0.1458
+     }
+    }
+   }
+   additionalActions {
+    SCR_DeployableInventoryItemPickUpAction "{51EC842E3A187379}" {
+    }
+    SCR_DeployableInventoryItemEquipClothAction "{553AEBE8F3B60801}" : "{83B98F1A96591AC6}Prefabs/Characters/Core/Actions/EquipClothAction.conf" {
+    }
+    SCR_DeployInventoryItemRestrictedAction "{6AE9DE1C071D80CE}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6AE9DE1CFC8B873F}" {
+      Name "#AR-DeployableSpawnPoints_Deploy"
+     }
+     Duration 5
+    }
+    SCR_DismantleInventoryItemBaseAction "{6AE9DE1C57F4C69E}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6AE9DE1C483D6F86}" {
+      Name "#AR-DeployableSpawnPoints_Dismantle"
+     }
+    }
+    SCR_ShowDeployableSpawnPointInfo "{6AE9DE1CBFD6D5B4}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6AE9DE1CD964EBEF}" {
+      Name "#AR-DeployableSpawnPoints_ShowRespawnInfo"
+     }
+    }
+    SCR_OpenDeployableSpawnPointStorageAction "{6AE9DE1CF2A5933E}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6AE9DE1C5842478E}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+    SCR_ToggleDeployableSpawnPointLoadoutAction "{6AE9DE1CFAD2EFFC}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6AE9DE1CF00F0B69}" {
+      Name "#AR-DeployableSpawnPoints_ToggleLoadouts"
+     }
+    }
+    RHS_SupportCallInBaseRequestAction "{6AE9DDF1816C8DB1}" : "{C21EFFFC549943EC}Prefabs/Items/Equipment/Core/Configs/RHS_RequestCallInSupportOnThisPositionAction.conf" {
+     m_eSupportType RESUPPLY
+    }
+   }
+  }
+  RHS_SGC_RadialMenuComponent "{6AE9DDF12C92C088}" {
+  }
+ }
+}

@@ -1,0 +1,24 @@
+GenericEntity : "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#TF-Magazine-VSS_9x39mm-Name (SP6)"
+     Description "#TF-Magazine-VSS_9x39mm-Description (SP6)"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "SP6"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags AP
+   }
+   AmmoConfig "{52B02FDCB5C2E141}Configs/Weapons/Ammo/Ammo_9x39.conf"
+   AmmoMapping {
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+ }
+}

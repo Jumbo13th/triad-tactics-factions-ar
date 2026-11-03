@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{6AE8F9767F86AD8F}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_SL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Characters_PL"
+    m_Image "{A67A444EFE727C06}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_PL_BCR.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{793EEE2C133176F9}Prefabs/Characters/HeadGear/Hat_Panama_Soviet/Hat_Panama_Soviet_01_v1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C7861F11D5334C0E}Prefabs/Characters/Uniforms/Jacket_US_BDU.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2BC6930FFD20AFA6}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_Tan.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AE8F976539EC65B}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F976F7B33DF4}" {
+     TargetStorage "Jacket/Jacket_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F97601D28102}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F976D12B58CB}" {
+     TargetStorage "Vest/Vest_Lifchik_Tan.et/Holster/Holster_PM.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F9764AC467E6}" {
+     TargetStorage "Vest/Vest_Lifchik_Tan.et"
+     PrefabsToSpawn {
+      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{DFC0532A49E17C39}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_Ball.et" "{DFC0532A49E17C39}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9765E838BE7}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F976B0A3543B}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9769D6C5DEE}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{DFC0532A49E17C39}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_Ball.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F976FC947B86}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+   }
+  }
+ }
+}

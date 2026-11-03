@@ -1,0 +1,87 @@
+SCR_ChimeraCharacter : "{6AE8F97692BA2F1E}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Characters_SL"
+    IconSetName "EditableEntity_Character_Leader_Squad"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_CHRI ROLE_LEADER
+    }
+    m_Image "{8C5E63ED089C1A29}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_SL_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6AE9BD1C75F9E6FB}Prefabs/Weapons/Rifles/AKS74/TCW_Rifle_AKS74.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{880A80C1FD1AE546}Prefabs/Weapons/Handguns/APS/Handgun_APS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{67662815EFF734DD}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D262D2102B9931C6}Prefabs/Characters/Uniforms/Jacket_M88_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{6AE9123DE3EAEC54}Prefabs/Characters/Vests/Vest_6B3/TCW_Vest_6B3_Rifleman.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6AE9AE03D458170F}Prefabs/Items/Equipment/Radios/TCW_Radio_R107M_ChRI.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AE8F976539EC65B}" {
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F976F7B33DF4}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup.et"
+     TargetPurpose 1
+    }
+    ItemsInitConfigurationItem "{6AE8F976D12B58CB}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9764AC467E6}" {
+     TargetStorage "ArmoredVest/TCW_Vest_6B3_Rifleman.et"
+     PrefabsToSpawn {
+      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{DFC0532A49E17C39}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_Ball.et" "{DFC0532A49E17C39}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9765E838BE7}" {
+     TargetStorage "Pants/Pants_M88.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F976B0A3543B}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup.et"
+     PrefabsToSpawn {
+      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9769D6C5DEE}" {
+     TargetStorage "Pants/Pants_M88.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F976FC947B86}" {
+     TargetStorage "Pants/Pants_M88.et"
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

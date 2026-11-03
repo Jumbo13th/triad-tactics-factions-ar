@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{6AE8F97692BA2F1E}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Characters_AMG"
+    IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_CHRI ROLE_AMMOBEARER
+    }
+    m_Image "{503200E13D29A11E}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_AMG_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6AE9BD1C451DFA63}Prefabs/Weapons/Rifles/AKM/TCW_Rifle_AKMN.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6E8633D9C5802A4A}Prefabs/Characters/HeadGear/Hat_RadiovkaBeret_01/Hat_RadiovkaBeret_01_base.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{27162F1F6EE6581A}Prefabs/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01_brownShirt.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AE8F9764AC467E6}" {
+     PrefabsToSpawn {
+      "{78CE75250B33F818}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Tracer.et" "{78CE75250B33F818}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Tracer.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9769D6C5DEE}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F976FC947B86}" {
+     TargetStorage "Vest/Vest_Lifchik_No_USSR.et"
+    }
+   }
+  }
+ }
+}

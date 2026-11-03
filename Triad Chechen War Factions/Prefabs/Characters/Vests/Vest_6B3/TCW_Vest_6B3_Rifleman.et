@@ -1,0 +1,27 @@
+GameEntity : "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Canteen {
+     Enabled 1
+     Offset -0.226 -0.0668 -0.0419
+     Angles 0 -94.9576 0
+     EnableDeflatedOffset 0
+    }
+    LoadoutSlotInfo Bayonet {
+     Enabled 1
+     Offset 0.1887 0.0557 -0.0236
+     Angles 1.6241 91.1389 -1.2247
+     Prefab "{8C9F39278B899AE6}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
+     EnableDeflatedOffset 0
+    }
+   }
+   DepthLeft 0.06
+   DepthRight 0.06
+   AreaOcludders {
+    "ChestLeftTopFront" "ChestRightTopFront" "ChestLeftBottomFront" "ChestRightBottomFront"
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+GenericEntity : "{A7AF84C6C58BA3E8}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{6AE9BD1CF1A45B00}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_RPK_45rnd_7N10.et"
+    }
+   }
+  }
+ }
+}

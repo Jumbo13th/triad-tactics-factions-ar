@@ -1,0 +1,65 @@
+SCR_ChimeraCharacter : "{6AE8F97692BA2F1E}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Characters_AAT"
+    IconSetName "EditableEntity_Character_Ammo_Bearer"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_CHRI ROLE_AMMOBEARER
+    }
+    m_Image "{441233E7ED5311F1}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_AAT_BCR.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E97A86BB050ED6D1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue_Dirty.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5BEE8146EAA1893B}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue_Dirty.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DD19B3B43F05BFB5}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans_Black.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6AE8FAF0F238AA1A}Prefabs/Characters/Vests/Vest_Lifchik/TCW_Vest_Lifchik_Tan_no_holster.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AE8F976539EC65B}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F976F7B33DF4}" {
+     TargetStorage "Vest/TCW_Vest_Lifchik_Tan_no_holster.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F97601D28102}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F976D12B58CB}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F9764AC467E6}" {
+     TargetStorage "Vest/TCW_Vest_Lifchik_Tan_no_holster.et"
+     PrefabsToSpawn {
+      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{6AE9BD1C5F4AAB09}Prefabs/Weapons/Magazines/TCW_Magazine_545x39_AK_30rnd_7N10.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9769D6C5DEE}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F976FC947B86}" {
+     TargetStorage "Vest/TCW_Vest_Lifchik_Tan_no_holster.et"
+    }
+   }
+  }
+ }
+}

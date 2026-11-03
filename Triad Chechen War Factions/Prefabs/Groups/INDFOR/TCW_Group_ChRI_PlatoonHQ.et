@@ -1,0 +1,99 @@
+SCR_AIGroup : "{242BC3C6BCE96EA5}Prefabs/Groups/INDFOR/Group_FIA_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Groups_PlatoonHQ"
+    m_sFaction "CHRI"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_CHRI TRAIT_RADIO
+    }
+    m_aAutoLabels {
+     GROUPSIZE_SMALL
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 225
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 3
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6AE8F976BD9FD007}" {
+      m_BudgetType AI
+      m_Value 3
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity INDFOR
+     m_Dimension LAND
+     m_Icons 0
+     m_Amplifier NONE
+    }
+    m_Image "{54A225CB8B14CF4E}UI/Textures/EditorPreviews/Groups/INDFOR/TCW_Group_ChRI_PlatoonHQ_BCR.edds"
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity INDFOR
+    m_Icons 0
+    m_Amplifier NONE
+   }
+  }
+  SCR_PreviewEntityComponent "{5636898C25429AD9}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6AE8F9761C995F64}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE8F9768DAB1A46}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE8F976272F1884}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE8F976B8606643}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ m_faction "CHRI"
+ m_aUnitPrefabSlots {
+  "{6AE8F976A6F8F012}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_PL.et" "{6AE8F9763BD45F48}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_DPL.et" "{6AE8F976A3D154D3}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_RTO.et"
+ }
+}

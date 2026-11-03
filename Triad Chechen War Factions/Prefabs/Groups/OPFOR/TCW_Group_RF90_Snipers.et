@@ -1,0 +1,129 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Groups_Snipers"
+    m_sFaction "RF90"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RF90 TRAIT_OPTICS TRAIT_RADIO
+    }
+    m_aAutoLabels {
+     GROUPSIZE_MEDIUM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 450
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 6
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6AE8F9769E69AE37}" {
+      m_BudgetType AI
+      m_Value 6
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Dimension LAND
+     m_Icons 0
+     m_Amplifier NONE
+    }
+    m_Image "{75CEFF8F871AAF0B}UI/Textures/EditorPreviews/Groups/OPFOR/TCW_Group_RF90_Snipers_BCR.edds"
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity OPFOR
+    m_Icons 0
+    m_Amplifier NONE
+   }
+  }
+  SCR_PreviewEntityComponent "{5636898C25429AD9}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6AE8F976562132FB}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE8F976411DEFA2}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE8F976AF3BE322}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE8F97689C54FEF}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE8F976B77BA074}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE8F97655F13129}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6AE8F9760FFC01BB}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 9 0 -9
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ m_faction "RF90"
+ m_aUnitPrefabSlots {
+  "{6AE8F9765BDC6622}Prefabs/Characters/Factions/OPFOR/RF/90s/TCW_Character_RF90_SpotterSL.et" "{6AE8F976A7D8E2F2}Prefabs/Characters/Factions/OPFOR/RF/90s/TCW_Character_RF90_Sniper.et" "{6AE8F976C8E46C36}Prefabs/Characters/Factions/OPFOR/RF/90s/TCW_Character_RF90_Spotter.et" "{6AE8F976A7D8E2F2}Prefabs/Characters/Factions/OPFOR/RF/90s/TCW_Character_RF90_Sniper.et" "{6AE8F976C8E46C36}Prefabs/Characters/Factions/OPFOR/RF/90s/TCW_Character_RF90_Spotter.et" "{6AE8F976206900D9}Prefabs/Characters/Factions/OPFOR/RF/90s/TCW_Character_RF90_SpotterAT.et"
+ }
+}

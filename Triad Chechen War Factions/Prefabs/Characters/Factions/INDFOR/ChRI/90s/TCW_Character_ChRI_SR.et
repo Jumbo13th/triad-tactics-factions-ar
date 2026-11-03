@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{6AE8F97692BA2F1E}Prefabs/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TCW_Characters_SR"
+    IconSetName "EditableEntity_Character_Leader_Team"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_CHRI ROLE_GRENADIER
+    }
+    m_Image "{8FDEEB5C879561B9}UI/Textures/EditorPreviews/Characters/Factions/INDFOR/ChRI/90s/TCW_Character_ChRI_SR_BCR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6AE9BD1CAB602638}Prefabs/Weapons/Rifles/AKM/TCW_Rifle_AKM_GP25.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2D215715795BC942}Prefabs/Characters/HeadGear/Hat_BoonieHat/GD_USMC_Boonie_Hat_M81.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CCA7A9BB4FD3197}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F06639A42E3BEE60}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL_no_USSR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AE8F976539EC65B}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F976F7B33DF4}" {
+     TargetStorage "Vest/Vest_Lifchik_GL_no_USSR.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F97601D28102}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F976D12B58CB}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{6AE8F9764AC467E6}" {
+     TargetStorage "Vest/Vest_Lifchik_GL_no_USSR.et"
+     PrefabsToSpawn {
+      "{78CE75250B33F818}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Tracer.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AE8F9769D6C5DEE}" {
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{78CE75250B33F818}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Tracer.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{D8125552E67B5C76}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Ball.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

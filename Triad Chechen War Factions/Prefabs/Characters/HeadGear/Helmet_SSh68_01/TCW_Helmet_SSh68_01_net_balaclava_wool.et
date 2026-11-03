@@ -1,0 +1,14 @@
+GameEntity : "{22963D69CA50EB9E}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_net.et" {
+ ID "50D4E2187B1C4408"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Mask {
+     Prefab "{D771F2DFC62D10F6}Prefabs/Clothing/soviet_wool_balaclava.et"
+     AreaType LoadoutHeadCoverArea "{6AE9A7C5BF52DC40}" {
+     }
+    }
+   }
+  }
+ }
+}

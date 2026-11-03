@@ -1,0 +1,86 @@
+GameProject {
+ ID "TriadChechenWarFactions"
+ GUID "6AE9A7C51A210867"
+ TITLE "Triad Chechen War Factions"
+ Dependencies {
+  "58D0FB3206B6F859" "595F2BF2F44836FB" "DEADC0DE00000001" "6912F9D48E9C8422" "66D847C1120E4817" "6716875A093F686A" "64C912EF952E1075" "65FB762EB503CCF9" "65FB51CDA61F1071" "6706746A7EE7E8F7"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{6AE9A7C55CCECD23}" {
+    StringTables {
+     StringTableDefinition "{6AE9A7C5077FF2B7}" {
+      StringTableSource "{6AE9A7C5F44288AE}Language/tcw_localization.st"
+      Languages {
+       LanguageDefinition "{6AE9A7C50CE6C8AF}" {
+        Code "cs_cz"
+        StringTableRuntime "{6AE9A7C5E589A5C5}Language/tcw_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{6AE9A7C5CDAA8878}" {
+        Code "de_de"
+        StringTableRuntime "{6AE9A7C55624B3A3}Language/tcw_localization.de_de.conf"
+       }
+       LanguageDefinition "{6AE9A7C5927B4B36}" {
+        Code "en_us"
+        StringTableRuntime "{6AE9A7C5E46CE92A}Language/tcw_localization.en_us.conf"
+       }
+       LanguageDefinition "{6AE9A7C5EF2ECC76}" {
+        Code "es_es"
+        StringTableRuntime "{6AE9A7C51CA5C91E}Language/tcw_localization.es_es.conf"
+       }
+       LanguageDefinition "{6AE9A7C557850AAA}" {
+        Code "fr_fr"
+        StringTableRuntime "{6AE9A7C57E871C80}Language/tcw_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{6AE9A7C500513942}" {
+        Code "it_it"
+        StringTableRuntime "{6AE9A7C543D727CA}Language/tcw_localization.it_it.conf"
+       }
+       LanguageDefinition "{6AE9A7C5A76FD4F9}" {
+        Code "ja_jp"
+        StringTableRuntime "{6AE9A7C5F74C678F}Language/tcw_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{6AE9A7C5F343B475}" {
+        Code "ko_kr"
+        StringTableRuntime "{6AE9A7C5F960F8DF}Language/tcw_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{6AE9A7C5DED145B1}" {
+        Code "pl_pl"
+        StringTableRuntime "{6AE9A7C5C857D7F8}Language/tcw_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{6AE9A7C5683285F3}" {
+        Code "pt_br"
+        StringTableRuntime "{6AE9A7C535BD23C4}Language/tcw_localization.pt_br.conf"
+       }
+       LanguageDefinition "{6AE9A7C5CDE9F8BD}" {
+        Code "ru_ru"
+        StringTableRuntime "{6AE9A7C534E0E345}Language/tcw_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{6AE9A7C5C4A2DBEB}" {
+        Code "uk_ua"
+        StringTableRuntime "{6AE9A7C5022740FA}Language/tcw_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{6AE9A7C58DFC03CA}" {
+        Code "zh_cn"
+        StringTableRuntime "{6AE9A7C5BA1E2282}Language/tcw_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
+   PlatformHardware XBOX_ONE
+  }
+ }
+}
