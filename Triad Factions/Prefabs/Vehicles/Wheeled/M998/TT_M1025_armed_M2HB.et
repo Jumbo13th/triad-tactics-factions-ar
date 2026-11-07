@@ -71,7 +71,7 @@ Vehicle : "{B120CDDBEF8DB007}Prefabs/Vehicles/Wheeled/M998/M1025_armed_base.et" 
      SlotTemplate InventoryStorageSlot M2Ammo {
       Prefab "{50A242E5D9742C62}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1Tracer.et"
      }
-     NumSlots 4
+     NumSlots 6
     }
    }
   }
