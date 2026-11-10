@@ -5,14 +5,14 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    "Encryption key" "wolverine"
    "Turned on" 1
    Transceivers {
-    RelayTransceiver "{6ADFBED3876393FA}" {
+    RadioTransceiver "{6ADFBED3876393FA}" {
      ChannelFrequency 32000
      "Transmitting Range" 4000
      "Min tunable frequency" 32000
      "Max tunable frequency" 68000
      "Frequency resolution" 200
     }
-    RelayTransceiver "{6ADFBED332893E1E}" {
+    RadioTransceiver "{6ADFBED332893E1E}" {
      ChannelFrequency 56000
      "Transmitting Range" 4000
      "Min tunable frequency" 32000
