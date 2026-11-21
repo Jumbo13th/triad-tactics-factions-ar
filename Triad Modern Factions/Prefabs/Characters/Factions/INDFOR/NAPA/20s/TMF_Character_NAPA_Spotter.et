@@ -28,13 +28,16 @@ SCR_ChimeraCharacter : "{C757955506D655FE}Prefabs/Characters/Factions/INDFOR/NAP
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{BABE1B6C0065846A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_r_p.et"
+     Prefab "{C342768CA247FD98}Prefabs/Characters/HeadGear/Helmet_ECH/variants/TMF_Helmet_ECH_lc_r_p_balaclava_od.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{02EE7A78CDF7EC68}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_GRN.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{DE8616CA87C165E3}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_GRN.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
     }
    }
   }

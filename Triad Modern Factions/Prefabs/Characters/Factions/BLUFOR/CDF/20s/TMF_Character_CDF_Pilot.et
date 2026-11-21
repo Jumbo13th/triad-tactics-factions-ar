@@ -25,6 +25,9 @@ SCR_ChimeraCharacter : "{CB703FFD2235D7A2}Prefabs/Characters/Factions/BLUFOR/CDF
     LoadoutSlotInfo Back {
      Prefab ""
     }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

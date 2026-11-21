@@ -25,6 +25,9 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{8909A91CFF369BB3}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic.et"
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{BA204AEBC0962385}Prefabs/Weapons/Rifles/AKS74UN/TMF_Rifle_AKS74UN_b18_b11u_b19n_agr47_glcore_22_silencer.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -42,6 +45,9 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
     LoadoutSlotInfo Vest {
      Prefab "{3B70D4D86A4E7B12}Prefabs/Characters/Vests/Vest_TV115/variants/TMF_Vest_TV115_Rifleman_OD2.et"
     }
+    LoadoutSlotInfo HandWear {
+     Prefab "{1E991CD19C6F7659}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Brown.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -58,11 +64,13 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
     ItemsInitConfigurationItem "{69E94638C0D05844}" {
      TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/sasarma1/Pouch_ArsArma_magouch_morphed_OD.et"
      PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
      }
     }
     ItemsInitConfigurationItem "{69E9463EF41FBD0B}" {
      TargetStorage "Vest/TMF_Vest_TV115_Rifleman_OD2.et/sasarma2/Pouch_ArsArma_magouch_morphed_OD.et"
      PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
      }
     }
     ItemsInitConfigurationItem "{69E9463EC3B3D9FE}" {

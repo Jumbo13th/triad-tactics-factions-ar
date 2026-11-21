@@ -7,7 +7,10 @@ SCR_ChimeraCharacter : "{18C2FF67A3CBE7F6}Prefabs/Characters/Factions/BLUFOR/CDF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{CD03EDE75DFF6D32}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_cwd_p.et"
+     Prefab "{61BB5AC6B32AF854}Prefabs/Characters/HeadGear/Helmet_ECH/variants/TMF_Helmet_ECH_lc_cwd_p_balaclava_mc.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
     }
    }
   }

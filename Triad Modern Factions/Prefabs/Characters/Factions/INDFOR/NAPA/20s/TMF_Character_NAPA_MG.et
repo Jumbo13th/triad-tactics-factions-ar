@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{533CCB961DBD36BE}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_r_Modded.et"
+     Prefab "{98CF87472DA7B42D}Prefabs/Characters/HeadGear/Helmet_ECH/variants/TMF_Helmet_ECH_lc_r_Modded_balaclava_od.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{0CAEBEC1E5B84ADA}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_OutT_RollS_MC_BLK.et"
@@ -30,6 +30,9 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
     }
     LoadoutSlotInfo Vest {
      Prefab "{9626CD89661F09AF}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_MG_OD.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
     }
    }
   }

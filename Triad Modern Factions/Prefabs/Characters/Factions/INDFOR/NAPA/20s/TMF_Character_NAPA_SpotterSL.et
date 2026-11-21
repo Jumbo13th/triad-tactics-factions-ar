@@ -30,7 +30,7 @@ SCR_ChimeraCharacter : "{389C3E4B0DAA849E}Prefabs/Characters/Factions/INDFOR/NAP
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{50CAAEEDC59F23C6}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc.et"
+     Prefab "{C0BAD9D4499C13FE}Prefabs/Characters/HeadGear/Helmet_ECH/variants/TMF_Helmet_ECH_lc_balaclava_blk.et"
     }
    }
   }

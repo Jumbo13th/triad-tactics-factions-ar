@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{EB69B412503CD821}Prefabs/Characters/Factions/INDFOR/NAP
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{54A7E4E38371553E}Prefabs/Characters/HeadGear/Helmet_Exfil/Helmet_Exfil_Blk.et"
+     Prefab "{9986CE8A365FABBB}Prefabs/Characters/HeadGear/Helmet_Exfil/variants/TMF_Helmet_Exfil_Blk_balaclava_blk.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{B2A1D31059A24138}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/CP_G3_Shirt_ColA_BaseT_PushS_BLK.et"

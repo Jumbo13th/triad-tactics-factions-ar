@@ -33,6 +33,9 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
     LoadoutSlotInfo Pants {
      Prefab "{51CACD06A9DBA42D}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_TRP_camo/CP_G3_Pants_KpadsG4_MC_TRP.et"
     }
+    LoadoutSlotInfo HandWear {
+     Prefab "{974EA340B1751B24}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_WolfGrey.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

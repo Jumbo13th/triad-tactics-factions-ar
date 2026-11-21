@@ -21,6 +21,9 @@ SCR_ChimeraCharacter : "{24F6548096C546D0}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E26E45FD209291F8}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/variants/TMF_Helmet_MICH_SHROUD_Cov_MarpatWD_balaclava_mc.et"
+    }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{AA28144C1153A86B}Prefabs/Characters/Vests/Vest_AA_A18/Vest_AA_A18_Coy.et"
     }

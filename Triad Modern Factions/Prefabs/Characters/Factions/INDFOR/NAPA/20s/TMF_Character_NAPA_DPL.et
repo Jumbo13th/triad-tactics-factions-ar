@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{C757955506D655FE}Prefabs/Characters/Factions/INDFOR/NAP
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{BABE1B6C0065846A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_r_p.et"
+     Prefab "{95A7D73CFA547026}Prefabs/Characters/HeadGear/Helmet_ECH/variants/TMF_Helmet_ECH_lc_r_p_balaclava_blk.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{8F3A8E321062EF55}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_TRP_camo/CP_G3_Shirt_ColA_OutT_FullS_MC_TRP.et"

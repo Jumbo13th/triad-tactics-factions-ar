@@ -13,6 +13,13 @@ SCR_ChimeraCharacter : "{526E86643FD2E632}Prefabs/Characters/Factions/BLUFOR/CDF
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3B90ABD906651F37}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/variants/TMF_Helmet_MICH_SHROUD_Cov_MarpatWD_balaclava_tan.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{69ED3917B7A92FE7}" {

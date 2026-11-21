@@ -45,6 +45,9 @@ SCR_ChimeraCharacter : "{CE3DE03B34E4FA29}Prefabs/Characters/Factions/INDFOR/NAP
     LoadoutSlotInfo Vest {
      Prefab "{A107F789220F1B2C}Prefabs/Characters/Vests/Vest_TV150/variants/TMF_Vest_TV150_rifleman_OD_no_holster.et"
     }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

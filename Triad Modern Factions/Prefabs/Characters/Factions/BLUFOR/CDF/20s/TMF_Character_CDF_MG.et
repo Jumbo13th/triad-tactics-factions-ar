@@ -12,12 +12,18 @@ SCR_ChimeraCharacter : "{D0A151B90F00DE6C}Prefabs/Characters/Factions/BLUFOR/CDF
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+   WeaponTemplate "{A32D8CF6C31AB0F8}Prefabs/Weapons/MachineGuns/M249/TMF_MG_M249_Rails_ACOG.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3B90ABD906651F37}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/variants/TMF_Helmet_MICH_SHROUD_Cov_MarpatWD_balaclava_tan.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{F8C4AA411FA9F3EA}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_RGR_MG.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
     }
    }
   }

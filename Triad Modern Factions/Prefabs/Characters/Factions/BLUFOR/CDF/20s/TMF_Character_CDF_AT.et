@@ -20,10 +20,13 @@ SCR_ChimeraCharacter : "{D0A151B90F00DE6C}Prefabs/Characters/Factions/BLUFOR/CDF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{907F51E4DFF366FF}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_base.et"
+     Prefab "{5F32C865910E6139}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/variants/TMF_Helmet_MICH_base_balaclava_tan.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{BC13AD4C3E6173AF}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsG2_MC.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{1E991CD19C6F7659}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Brown.et"
     }
    }
   }

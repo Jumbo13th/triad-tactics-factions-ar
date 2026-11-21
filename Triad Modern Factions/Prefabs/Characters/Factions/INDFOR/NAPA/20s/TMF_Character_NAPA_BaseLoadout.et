@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
       SCR_EquipmentStorageSlot BinocularSlot {
       }
       SCR_EquipmentStorageSlot WristwatchSlot {
-       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+       Prefab "{CCB365E9B5737ECD}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_black.et"
       }
      }
     }

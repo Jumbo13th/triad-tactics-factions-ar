@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{F4EF10F87EFE6152}Prefabs/Characters/Factions/BLUFOR/CDF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{58ADDA88559F73E9}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_hc_v_r_c_p.et"
+     Prefab "{3F3666ECA2B77618}Prefabs/Characters/HeadGear/Helmet_ECH/variants/TMF_Helmet_ECH_hc_v_r_c_p_balaclava_tan.et"
     }
    }
   }
